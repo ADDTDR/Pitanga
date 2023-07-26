@@ -1,4 +1,4 @@
-21740431263100462
+21742121663519242
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60836,6 +60836,13 @@ Display
 0
 14
 14
+LTP-305G
+JST_SM04B-SRSS-TB(LF)(SN)
+
+
+0
+6
+6
 LTP-305G
 Pin_Header_Straight_2x20
 Through hole pin header
