@@ -798,7 +798,6 @@
   (no_connect (at 160.02 179.07) (uuid 922b1d7f-06cb-46a1-bedf-1ad6fea240ff))
   (no_connect (at 160.02 135.89) (uuid ca2753b1-c5ed-45eb-a4e0-6a560378ca89))
   (no_connect (at 26.67 130.81) (uuid e6cd1248-818b-4070-be6e-38303e5264ba))
-  (no_connect (at 260.35 157.48) (uuid e78e84c0-e0a4-4f6e-8381-ea1a98202d7e))
 
   (wire (pts (xy 26.67 43.18) (xy 30.48 43.18))
     (stroke (width 0) (type default))
@@ -1336,6 +1335,10 @@
     (stroke (width 0) (type default))
     (uuid b171e563-bb05-41f3-b9b2-4a2e6b51e114)
   )
+  (wire (pts (xy 260.35 157.48) (xy 255.27 157.48))
+    (stroke (width 0) (type default))
+    (uuid b3ad4000-4918-45a0-b375-66b251c0fbd3)
+  )
   (wire (pts (xy 157.48 125.73) (xy 160.02 125.73))
     (stroke (width 0) (type default))
     (uuid b3be4ba2-9d38-49d0-9e7a-e44104d3b357)
@@ -1427,6 +1430,10 @@
   (wire (pts (xy 157.48 118.11) (xy 160.02 118.11))
     (stroke (width 0) (type default))
     (uuid d316adc0-4ec0-4b85-97f4-f93edadfc0f5)
+  )
+  (wire (pts (xy 255.27 157.48) (xy 255.27 158.75))
+    (stroke (width 0) (type default))
+    (uuid d3afe344-dfde-4e7e-aab8-9214544da3fe)
   )
   (wire (pts (xy 157.48 153.67) (xy 160.02 153.67))
     (stroke (width 0) (type default))
@@ -3476,6 +3483,36 @@
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
           (reference "C12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 255.27 158.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8ed15969-6a92-48fb-964c-68ab305a1761)
+    (property "Reference" "#PWR0109" (at 255.27 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 255.397 163.1442 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 255.27 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 255.27 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a625e902-8e92-4dd4-b0aa-2056c3da1d59))
+    (instances
+      (project "cm4-gpio"
+        (path "/9052c69d-def3-4232-bac1-59988fb85f45"
+          (reference "#PWR0109") (unit 1)
+        )
+      )
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
+          (reference "#PWR026") (unit 1)
         )
       )
     )
