@@ -484,6 +484,14 @@
     [
       "eed35b77-cbf9-4596-9b17-2558f81058ba",
       ""
+    ],
+    [
+      "d18f2354-5f56-48bf-919b-3fdf8c87b820",
+      "CAN Transiver"
+    ],
+    [
+      "7d22e16e-a0ba-4766-b1de-c8cbb28f14f7",
+      "Led_drivers"
     ]
   ],
   "text_variables": {}
