@@ -1419,7 +1419,7 @@
     (property "Value" "120" (at 242.1636 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 246.888 85.09 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 246.888 85.09 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 245.11 85.09 0)
@@ -2667,7 +2667,7 @@
   (symbol (lib_id "Device:LED") (at 176.53 129.54 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dfaeca8d-d2c4-4424-a9f5-cc0dbf2dfe09)
-    (property "Reference" "PWR" (at 180.34 129.8575 90)
+    (property "Reference" "PWR1" (at 180.34 129.8575 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Green" (at 180.34 132.3975 90)
@@ -2684,7 +2684,7 @@
     (instances
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/d18f2354-5f56-48bf-919b-3fdf8c87b820"
-          (reference "PWR") (unit 1)
+          (reference "PWR1") (unit 1)
         )
       )
     )

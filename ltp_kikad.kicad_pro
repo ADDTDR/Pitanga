@@ -491,7 +491,11 @@
     ],
     [
       "7d22e16e-a0ba-4766-b1de-c8cbb28f14f7",
-      "Led_drivers"
+      "Led Drivers"
+    ],
+    [
+      "2fb8f433-d537-4253-8cc8-f6d42368ed9e",
+      "I2C Transceiver"
     ]
   ],
   "text_variables": {}
