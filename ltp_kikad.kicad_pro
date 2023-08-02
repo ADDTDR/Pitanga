@@ -442,7 +442,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "ltp_kikad.step",
-      "vrml": ""
+      "vrml": "ltp_kikad.wrl"
     },
     "page_layout_descr_file": ""
   },
