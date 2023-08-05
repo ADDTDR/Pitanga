@@ -61,21 +61,8 @@
         "courtyards_overlap|151552001|63144601|023e3165-659f-4063-951f-d4d328948836|c63506aa-32fc-4609-8dd0-3f810760a6af",
         "courtyards_overlap|161552001|64148152|654b4145-0a2b-4387-899b-c569ff6fdd89|c63506aa-32fc-4609-8dd0-3f810760a6af",
         "courtyards_overlap|171552001|63145001|00b6771c-6915-4e56-a018-ff58586ee667|654b4145-0a2b-4387-899b-c569ff6fdd89",
-        "silk_overlap|131802000|63395000|8c5de3a3-1600-4241-b3a7-edf5a9cf020a|e90f4a13-8d6c-4c74-82c9-dcd8d80ac2f5",
-        "silk_overlap|131802000|63395000|a74d658f-89a3-47aa-9ee2-41b00937247a|e90f4a13-8d6c-4c74-82c9-dcd8d80ac2f5",
-        "silk_overlap|131802000|82145000|e777da2a-7d7d-4f4c-a751-439d2d7144f4|5fa5d904-0ce3-4ed9-8315-d5506e93b442",
-        "silk_overlap|141802000|63395000|a74d658f-89a3-47aa-9ee2-41b00937247a|971710bd-f9cc-41f3-b106-108f22afa077",
         "silk_overlap|141802000|82144600|1b35c827-d5f5-4839-95ae-ed9e8f3e3cda|e777da2a-7d7d-4f4c-a751-439d2d7144f4",
-        "silk_overlap|141852000|63395000|a74d658f-89a3-47aa-9ee2-41b00937247a|b2fa64f9-10ba-4cc9-9362-fafab934a63e",
-        "silk_overlap|151802000|63394600|a1149894-eba7-464e-9fc1-6dd3cbc3cb41|b2fa64f9-10ba-4cc9-9362-fafab934a63e",
-        "silk_overlap|151802000|63394600|b2fa64f9-10ba-4cc9-9362-fafab934a63e|e75b8518-9dd3-44d7-b61c-514f6d89db95",
-        "silk_overlap|151852000|82144600|1b35c827-d5f5-4839-95ae-ed9e8f3e3cda|82a8ac89-20cb-49d4-bfda-a9591ed0900f",
-        "silk_overlap|161802000|63394600|a1149894-eba7-464e-9fc1-6dd3cbc3cb41|7f40d6da-7dc0-4946-915b-db9e3ee42643",
-        "silk_overlap|161802000|63395000|2c3505ae-7514-4a7e-8918-538d8be575a5|a1149894-eba7-464e-9fc1-6dd3cbc3cb41",
-        "silk_overlap|161802000|82145000|087cc90a-fefd-4196-bdc5-36a3763a3bd6|82a8ac89-20cb-49d4-bfda-a9591ed0900f",
-        "silk_overlap|171802000|63395000|52e46235-85de-41b8-be86-df502a602412|2c3505ae-7514-4a7e-8918-538d8be575a5",
-        "silk_overlap|171802000|63395000|986d92af-1130-4bb7-89f1-47b48e2f3e8f|2c3505ae-7514-4a7e-8918-538d8be575a5",
-        "silk_overlap|171852000|82145000|087cc90a-fefd-4196-bdc5-36a3763a3bd6|8e30a966-0005-419d-9366-7d9584245c2e"
+        "silk_overlap|151802000|63394600|b2fa64f9-10ba-4cc9-9362-fafab934a63e|e75b8518-9dd3-44d7-b61c-514f6d89db95"
       ],
       "meta": {
         "version": 2
@@ -507,10 +494,6 @@
       ""
     ],
     [
-      "d18f2354-5f56-48bf-919b-3fdf8c87b820",
-      "CAN Transiver"
-    ],
-    [
       "7d22e16e-a0ba-4766-b1de-c8cbb28f14f7",
       "Led Drivers"
     ],
@@ -521,6 +504,10 @@
     [
       "eeffdcd2-f49f-4c6e-9443-50950813e7b1",
       "Qwiik stemma connector"
+    ],
+    [
+      "643f5372-7b7f-4a0a-9eb8-fe959bdc465c",
+      "MCU"
     ]
   ],
   "text_variables": {}

@@ -818,9 +818,6 @@
     (pin "1" (uuid 185b7f66-1e7e-446d-b2bb-42b233c5a98c))
     (instances
       (project "ltp_kikad"
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/d18f2354-5f56-48bf-919b-3fdf8c87b820"
-          (reference "#PWR045") (unit 1)
-        )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
           (reference "#PWR058") (unit 1)
         )
@@ -1057,9 +1054,6 @@
     (pin "1" (uuid 22de1ed7-eb02-49f1-898d-edeef6887539))
     (instances
       (project "ltp_kikad"
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/d18f2354-5f56-48bf-919b-3fdf8c87b820"
-          (reference "#PWR045") (unit 1)
-        )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
           (reference "#PWR058") (unit 1)
         )
