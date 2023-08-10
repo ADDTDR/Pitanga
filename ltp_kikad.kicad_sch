@@ -530,10 +530,6 @@
     (stroke (width 0) (type default))
     (uuid 112b0b88-0435-4e3a-8e40-f93b29ad13de)
   )
-  (wire (pts (xy 242.57 101.6) (xy 242.57 109.22))
-    (stroke (width 0) (type default))
-    (uuid 15f9c8de-5232-42a3-bb80-b1bc74b9a24f)
-  )
   (wire (pts (xy 24.13 180.34) (xy 30.48 180.34))
     (stroke (width 0) (type default))
     (uuid 173c5255-f353-45a1-be13-66fa28986bec)
@@ -1725,36 +1721,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 242.57 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2c9da65e-d197-48c5-bc29-efb6a735ea00)
-    (property "Reference" "#PWR038" (at 242.57 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 242.697 118.6942 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 242.57 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 242.57 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2bcbb68a-43cf-4bf0-a10f-30b5e25b6340))
-    (instances
-      (project "LTP305_ESP32_CLOCK"
-        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
-          (reference "#PWR038") (unit 1)
-        )
-      )
-      (project "ltp_kikad"
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR034") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:+5V") (at 163.83 104.14 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e13ae4a-d08b-48da-a98b-d0411778e9df)
@@ -2574,36 +2540,6 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 242.57 101.6 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8f478fdb-b64a-40b2-b3a6-3de3f7424080)
-    (property "Reference" "#PWR08" (at 238.76 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 246.9642 101.981 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 242.57 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 242.57 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8acb7bbe-27b5-458f-9b70-5684e2b31c21))
-    (instances
-      (project "LTP305_ESP32_CLOCK"
-        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-      (project "ltp_kikad"
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR033") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "LTP-305G:LTP-305G") (at 30.48 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96b88138-7612-49a8-9e82-dd1a7cd3a5ed)
@@ -3140,37 +3076,6 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 242.57 111.76 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ef0b9028-cfce-4ad4-bce4-8ffa10501470)
-    (property "Reference" "C11" (at 244.9068 110.5916 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10uF" (at 237.49 114.3 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 242.57 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 242.57 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3fb2e39b-7ace-4055-bf3f-614defe2cce5))
-    (pin "2" (uuid da786e25-9fb8-4497-9c9f-8f231b82f965))
-    (instances
-      (project "LTP305_ESP32_CLOCK"
-        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
-          (reference "C11") (unit 1)
-        )
-      )
-      (project "ltp_kikad"
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "C17") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C_Small") (at 163.83 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eff9688b-39f1-4294-af1c-5b4fe3500efc)
@@ -3232,6 +3137,23 @@
     )
   )
 
+  (sheet (at 116.84 20.32) (size 57.15 6.35) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 016e13d7-1a1a-4980-89bb-e5d4ebfcb8b8)
+    (property "Sheetname" "CAN" (at 116.84 19.6084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "can.kicad_sch" (at 116.84 27.2546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba" (page "6"))
+      )
+    )
+  )
+
   (sheet (at 116.84 74.93) (size 57.15 7.62) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -3261,7 +3183,7 @@
     )
     (instances
       (project "ltp_kikad"
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba" (page "6"))
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba" (page "7"))
       )
     )
   )
