@@ -841,6 +841,10 @@
     (stroke (width 0) (type default))
     (uuid 73a1ea2e-6af7-4eae-a30c-771a27eaee97)
   )
+  (wire (pts (xy 39.37 121.92) (xy 39.37 129.54))
+    (stroke (width 0) (type default))
+    (uuid 79df2699-26fd-45b1-847f-7cd56efd01b5)
+  )
   (wire (pts (xy 67.31 88.9) (xy 71.12 88.9))
     (stroke (width 0) (type default))
     (uuid 7b390b2c-20cd-429c-934c-e1b3ba7a8800)
@@ -1149,6 +1153,39 @@
     )
   )
 
+  (symbol (lib_id "rpi-pico-debugger-shoe-rescue:+3.3V-power") (at 54.61 121.92 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 262f9a7b-2a61-41f7-a7c9-065a053def91)
+    (property "Reference" "#PWR01" (at 54.61 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 54.991 117.5258 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 54.61 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 54.61 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e37b50c9-cf61-430a-8e87-49b2aa4e5cba))
+    (instances
+      (project "rpi-pico-debugger-shoe"
+        (path "/aad74d97-f116-4a83-b498-c8cb2f4b4e35"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/643f5372-7b7f-4a0a-9eb8-fe959bdc465c"
+          (reference "#PWR043") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/016e13d7-1a1a-4980-89bb-e5d4ebfcb8b8"
+          (reference "#PWR0118") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "rpi-pico-debugger-shoe-rescue:+3.3V-power") (at 189.23 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ef1feaf-37da-448a-88f0-60c84de81b02)
@@ -1343,6 +1380,39 @@
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/016e13d7-1a1a-4980-89bb-e5d4ebfcb8b8"
           (reference "#PWR0104") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "rpi-pico-debugger-shoe-rescue:+3.3V-power") (at 39.37 121.92 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4d6666a2-c82f-4535-a830-65ebccbf319c)
+    (property "Reference" "#PWR0104" (at 39.37 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 39.751 117.5258 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 39.37 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 39.37 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5cea5382-5bf5-489e-9c88-ba0d3a85606a))
+    (instances
+      (project "rpi-pico-debugger-shoe"
+        (path "/aad74d97-f116-4a83-b498-c8cb2f4b4e35"
+          (reference "#PWR0104") (unit 1)
+        )
+      )
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/643f5372-7b7f-4a0a-9eb8-fe959bdc465c"
+          (reference "#PWR056") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/016e13d7-1a1a-4980-89bb-e5d4ebfcb8b8"
+          (reference "#PWR0117") (unit 1)
         )
       )
     )
