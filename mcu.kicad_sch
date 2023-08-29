@@ -3555,7 +3555,7 @@
     (property "Value" "12MHZ" (at 170.18 163.4491 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "LTP-305G:ABM3B" (at 158.75 165.1 0)
+    (property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" (at 158.75 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 158.75 165.1 0)
