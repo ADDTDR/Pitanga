@@ -55,13 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|131552001|63145001|727a5031-882b-4b27-a5b0-6203e9d705da|76d80bd9-d97e-43ef-ae43-258f2d94f91b",
-        "courtyards_overlap|141552220|63145001|023e3165-659f-4063-951f-d4d328948836|727a5031-882b-4b27-a5b0-6203e9d705da",
-        "courtyards_overlap|151552001|63144601|023e3165-659f-4063-951f-d4d328948836|c63506aa-32fc-4609-8dd0-3f810760a6af",
-        "courtyards_overlap|161552001|63145001|654b4145-0a2b-4387-899b-c569ff6fdd89|c63506aa-32fc-4609-8dd0-3f810760a6af",
-        "courtyards_overlap|171552001|63145001|00b6771c-6915-4e56-a018-ff58586ee667|654b4145-0a2b-4387-899b-c569ff6fdd89"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -87,7 +81,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -428,7 +422,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -494,10 +488,6 @@
     [
       "7d22e16e-a0ba-4766-b1de-c8cbb28f14f7",
       "Led Drivers"
-    ],
-    [
-      "2fb8f433-d537-4253-8cc8-f6d42368ed9e",
-      "I2C Transceiver"
     ],
     [
       "eeffdcd2-f49f-4c6e-9443-50950813e7b1",
