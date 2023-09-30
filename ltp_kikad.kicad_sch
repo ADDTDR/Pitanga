@@ -1981,12 +1981,6 @@
         )
       )
       (project "ltp_kikad"
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/643f5372-7b7f-4a0a-9eb8-fe959bdc465c"
-          (reference "#PWR056") (unit 1)
-        )
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/016e13d7-1a1a-4980-89bb-e5d4ebfcb8b8"
-          (reference "#PWR0117") (unit 1)
-        )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
           (reference "#PWR0119") (unit 1)
         )
@@ -3230,23 +3224,6 @@
     )
   )
 
-  (sheet (at 116.84 20.32) (size 57.15 6.35) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 016e13d7-1a1a-4980-89bb-e5d4ebfcb8b8)
-    (property "Sheetname" "CAN" (at 116.84 19.6084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "can.kicad_sch" (at 116.84 27.2546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ltp_kikad"
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba" (page "6"))
-      )
-    )
-  )
-
   (sheet (at 116.84 74.93) (size 57.15 7.62) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -3260,23 +3237,6 @@
     (instances
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 116.84 33.02) (size 57.15 7.62) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 643f5372-7b7f-4a0a-9eb8-fe959bdc465c)
-    (property "Sheetname" "MCU" (at 116.84 32.3084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "mcu.kicad_sch" (at 116.84 41.2246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ltp_kikad"
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba" (page "7"))
       )
     )
   )
