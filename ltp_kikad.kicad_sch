@@ -2107,6 +2107,23 @@
     )
   )
 
+  (sheet (at 116.84 107.95) (size 57.15 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a)
+    (property "Sheetname" "MCU" (at 116.84 107.2384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "stm32_mcu.kicad_sch" (at 116.84 116.1546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba" (page "4"))
+      )
+    )
+  )
+
   (sheet (at 116.84 88.9) (size 57.15 7.62) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

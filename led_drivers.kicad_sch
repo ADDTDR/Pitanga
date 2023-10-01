@@ -814,6 +814,10 @@
     (stroke (width 0) (type default))
     (uuid ba1a8690-8be1-48d7-a855-c629314b04a2)
   )
+  (wire (pts (xy 133.35 49.53) (xy 133.35 53.34))
+    (stroke (width 0) (type default))
+    (uuid bc339ef0-0c9b-4415-9562-b66696a1344c)
+  )
   (wire (pts (xy 203.2 90.17) (xy 203.2 95.25))
     (stroke (width 0) (type default))
     (uuid c1d599b8-bae3-4f94-a7fc-d3ab626826da)
@@ -1426,6 +1430,40 @@
     )
   )
 
+  (symbol (lib_id "Device:C_Small") (at 133.35 55.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 30f4e5cf-1573-4ce1-8c10-b0c93bc3086a)
+    (property "Reference" "C11" (at 135.6868 54.7116 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10uF" (at 128.27 58.42 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 133.35 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 133.35 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8255dd2e-7115-47f9-a324-f3f70d8e7580))
+    (pin "2" (uuid 6e59d544-9a8b-44a6-b5ba-45692bb3cbee))
+    (instances
+      (project "LTP305_ESP32_CLOCK"
+        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
+          (reference "C11") (unit 1)
+        )
+      )
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
+          (reference "C2") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
+          (reference "C4") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:D") (at 212.09 54.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32f61791-09f3-406f-b30e-79d053a3d594)
@@ -1548,6 +1586,72 @@
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
           (reference "SW3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 133.35 49.53 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5d8b3834-3e1d-4549-83c8-8b1056443450)
+    (property "Reference" "#PWR08" (at 133.35 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 133.731 45.1358 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 133.35 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 133.35 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0a2daef9-cda1-4e78-96ff-8a6a0378be52))
+    (instances
+      (project "LTP305_ESP32_CLOCK"
+        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 133.35 58.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 706a5246-82df-4f81-84ca-5f02d7c6c02d)
+    (property "Reference" "#PWR038" (at 133.35 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 133.477 62.8142 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 133.35 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 133.35 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid df250c89-dfa0-4ca9-834d-1ef947d1cb24))
+    (instances
+      (project "LTP305_ESP32_CLOCK"
+        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
+          (reference "#PWR038") (unit 1)
+        )
+      )
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
+          (reference "#PWR05") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
+          (reference "#PWR021") (unit 1)
         )
       )
     )
