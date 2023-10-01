@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,7.0.8*%
-%TF.CreationDate,2023-10-01T18:46:51+03:00*%
+%TF.CreationDate,2023-10-01T18:56:44+03:00*%
 %TF.ProjectId,ltp_kikad,6c74705f-6b69-46b6-9164-2e6b69636164,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Drillmap*%
 %TF.FilePolarity,Positive*%
 %FSLAX45Y45*%
 G04 Gerber Fmt 4.5, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.8) date 2023-10-01 18:46:51*
+G04 Created by KiCad (PCBNEW 7.0.8) date 2023-10-01 18:56:44*
 %MOMM*%
 %LPD*%
 G01*
@@ -79,15 +79,15 @@ G75*
 G03*
 X11978700Y-10020000I-20000J0D01*
 G01*
-X12006096Y-8968000D02*
-G75*
-G03*
-X12006096Y-8968000I-20000J0D01*
-G01*
 X12008700Y-6090000D02*
 G75*
 G03*
 X12008700Y-6090000I-20000J0D01*
+G01*
+X12008700Y-8850000D02*
+G75*
+G03*
+X12008700Y-8850000I-20000J0D01*
 G01*
 X12018700Y-9130000D02*
 G75*
