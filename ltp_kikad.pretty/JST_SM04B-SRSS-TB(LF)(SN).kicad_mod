@@ -51,7 +51,7 @@
   (pad "4" smd rect (at 1.5 0) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cd56437f-add6-49b8-84d3-a2a1fb862993))
   (pad "S1" smd rect (at -2.8 3.875) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 02bdf057-3e25-441c-b96a-1388cacac9d6))
   (pad "S2" smd rect (at 2.8 3.875) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ed44f2fe-5a44-4963-bfde-50fbb3a52eb9))
-  (model "C:/Users/atudo/Downloads/LIB_SM04B-SRSS-TB_LF__SN_/SM04B-SRSS-TB_LF__SN_/3D/SM04B-SRSS-TB_LF__SN_.stp"
+  (model "${KIPRJMOD}/3dmodels/SM04B-SRSS-TB_LF__SN_.stp"
     (offset (xyz 0 -0.6 -0.3))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

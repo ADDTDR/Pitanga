@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ht16k33-28sop-samacsys_parts")(type "KiCad")(uri "${KIPRJMOD}/ltp_kikad.pretty/ht16k33-28sop-samacsys_parts.kicad_sym")(options "")(descr ""))
+  (lib (name "sm04b-srss-tb(lf)(sn)")(type "KiCad")(uri "${KIPRJMOD}/ltp_kikad.pretty/sm04b-srss-tb(lf)(sn).kicad_sym")(options "")(descr ""))
+)
