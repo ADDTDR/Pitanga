@@ -275,7 +275,7 @@
       (net 31 "2_an0") (pinfunction "ANODE_COLUMN_5") (pintype "passive") (tstamp 1fbf71b8-f606-442b-8733-30cc48b18b6e))
     (pad "14" thru_hole circle locked (at 7.62 0) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 32 "2_an1") (pinfunction "ANODE_COLUMN_4") (pintype "passive") (tstamp 2233b62d-234e-401b-861d-695e6d108966))
-    (model "C:/Users/atudo/Downloads/LIB_LTP-305G (2)/LTP-305G/3D/LTP-305G.stp"
+    (model "${KIPRJMOD}/3dmodels/LTP-305G.stp"
       (offset (xyz 3.8 -7.6 4.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -363,7 +363,7 @@
       (net 60 "an0") (pinfunction "ANODE_COLUMN_5") (pintype "passive") (tstamp b8a29c83-2e24-4608-9fde-c346f84cdbb2))
     (pad "14" thru_hole circle locked (at 7.62 0) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 59 "an1") (pinfunction "ANODE_COLUMN_4") (pintype "passive") (tstamp 93a39130-1cdc-4385-ba4e-9133091419a8))
-    (model "C:/Users/atudo/Downloads/LIB_LTP-305G (2)/LTP-305G/3D/LTP-305G.stp"
+    (model "${KIPRJMOD}/3dmodels/LTP-305G.stp"
       (offset (xyz 3.8 -7.6 4.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1281,7 +1281,7 @@
       (net 24 "2_an5") (pinfunction "ANODE_COLUMN_5") (pintype "passive") (tstamp d5f38af7-565f-4466-beb1-74b28a1c6cde))
     (pad "14" thru_hole circle locked (at 7.62 0) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 25 "2_an6") (pinfunction "ANODE_COLUMN_4") (pintype "passive") (tstamp c0bdd430-6643-4937-9acb-821efc9f894f))
-    (model "C:/Users/atudo/Downloads/LIB_LTP-305G (2)/LTP-305G/3D/LTP-305G.stp"
+    (model "${KIPRJMOD}/3dmodels/LTP-305G.stp"
       (offset (xyz 3.8 -7.6 4.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1455,7 +1455,7 @@
       (net 55 "an5") (pinfunction "ANODE_COLUMN_5") (pintype "passive") (tstamp 2e5108fd-fabb-4186-9493-84b139fda747))
     (pad "14" thru_hole circle locked (at 7.62 0) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 54 "an6") (pinfunction "ANODE_COLUMN_4") (pintype "passive") (tstamp f007387f-9425-4a51-b04d-1f2a48e5d550))
-    (model "C:/Users/atudo/Downloads/LIB_LTP-305G (2)/LTP-305G/3D/LTP-305G.stp"
+    (model "${KIPRJMOD}/3dmodels/LTP-305G.stp"
       (offset (xyz 3.8 -7.6 4.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1543,7 +1543,7 @@
       (net 49 "an10") (pinfunction "ANODE_COLUMN_5") (pintype "passive") (tstamp 4df9222f-1db8-4ae2-a5e1-d41e79d8b766))
     (pad "14" thru_hole circle locked (at 7.62 0) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 50 "an11") (pinfunction "ANODE_COLUMN_4") (pintype "passive") (tstamp 8295e627-3505-4c88-b3e0-1c260952699f))
-    (model "${LOCAL}/LTP-305G.stp"
+    (model "${KIPRJMOD}/3dmodels/LTP-305G.stp"
       (offset (xyz 3.8 -7.6 4.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2810,7 +2810,7 @@
       (net 19 "2_an10") (pinfunction "ANODE_COLUMN_5") (pintype "passive") (tstamp e9037c64-57e2-45eb-abb3-26664dbdacaf))
     (pad "14" thru_hole circle locked (at 7.62 0) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 20 "2_an11") (pinfunction "ANODE_COLUMN_4") (pintype "passive") (tstamp 2fb75e12-09fa-4d4e-b18d-5fb55a166f29))
-    (model "C:/Users/atudo/Downloads/LIB_LTP-305G (2)/LTP-305G/3D/LTP-305G.stp"
+    (model "${KIPRJMOD}/3dmodels/LTP-305G.stp"
       (offset (xyz 3.8 -7.6 4.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
