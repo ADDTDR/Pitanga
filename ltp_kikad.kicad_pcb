@@ -485,7 +485,7 @@
       (net 36 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 0a3427ba-4e42-438d-b4dd-e03a40cf1906))
     (pad "S2" smd rect locked (at 2.8 3.875) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 36 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 550877dc-4e4c-4089-b28a-7aa231a2ceda))
-    (model "${LOCAL}/SM04B-SRSS-TB_LF__SN_.stp"
+    (model "${KIPRJMOD}/3dmodels/SM04B-SRSS-TB_LF__SN_.stp"
       (offset (xyz 0 -0.6 -0.3))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -847,7 +847,7 @@
       (net 38 "SDA") (pinfunction "SDA") (pintype "passive") (tstamp c64618e0-7850-475e-b7dc-b3b638772b71))
     (pad "28" smd rect locked (at 4.65 -8.255 180) (size 0.65 2.1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 83 "+3V3") (pinfunction "VDD") (pintype "passive") (tstamp 4867e39f-ca4e-4143-a0e9-f2101a87955b))
-    (model "C:/Users/atudo/Downloads/LIB_HT16K33-28SOP/HT16K33-28SOP/3D/HT16K33-28SOP.stp"
+    (model "${KIPRJMOD}/3dmodels/HT16K33-28SOP.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3014,7 +3014,7 @@
       (net 36 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 3e435996-63b8-4892-ad6b-8aacb8c6bd38))
     (pad "S2" smd rect locked (at 2.8 3.875) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 36 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp e199fdc1-70fc-4ae6-8bb8-909fe4300eab))
-    (model "${LOCAL}/SM04B-SRSS-TB_LF__SN_.stp"
+    (model "${KIPRJMOD}/3dmodels/SM04B-SRSS-TB_LF__SN_.stp"
       (offset (xyz 0 -0.6 -0.3))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -3130,7 +3130,7 @@
       (net 38 "SDA") (pinfunction "SDA") (pintype "passive") (tstamp ec994cb3-e169-4b22-a9de-cbb14b91918f))
     (pad "28" smd rect locked (at 4.65 -8.255 180) (size 0.65 2.1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 83 "+3V3") (pinfunction "VDD") (pintype "passive") (tstamp 966ab01f-36aa-43dd-99ee-464ad099d50f))
-    (model "C:/Users/atudo/Downloads/LIB_HT16K33-28SOP/HT16K33-28SOP/3D/HT16K33-28SOP.stp"
+    (model "${KIPRJMOD}/3dmodels/HT16K33-28SOP.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
