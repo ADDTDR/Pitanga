@@ -1543,7 +1543,7 @@
       (net 49 "an10") (pinfunction "ANODE_COLUMN_5") (pintype "passive") (tstamp 4df9222f-1db8-4ae2-a5e1-d41e79d8b766))
     (pad "14" thru_hole circle locked (at 7.62 0) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 50 "an11") (pinfunction "ANODE_COLUMN_4") (pintype "passive") (tstamp 8295e627-3505-4c88-b3e0-1c260952699f))
-    (model "C:/Users/atudo/Downloads/LIB_LTP-305G (2)/LTP-305G/3D/LTP-305G.stp"
+    (model "${LOCAL}/LTP-305G.stp"
       (offset (xyz 3.8 -7.6 4.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
