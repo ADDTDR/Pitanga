@@ -575,6 +575,52 @@
         )
       )
     )
+    (symbol "rpi-pico-debugger-shoe-rescue:+3.3V-power" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3.3V-power" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3.3V-power_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+      )
+      (symbol "+3.3V-power_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
 
   (junction (at 149.86 118.11) (diameter 0) (color 0 0 0 0)
@@ -600,6 +646,9 @@
   )
   (junction (at 184.15 82.55) (diameter 0) (color 0 0 0 0)
     (uuid d6624d55-71ef-48b7-bb79-d5065c76549e)
+  )
+  (junction (at 115.57 57.15) (diameter 0) (color 0 0 0 0)
+    (uuid eba76849-5ff4-4486-befb-642304f98a02)
   )
 
   (wire (pts (xy 123.19 82.55) (xy 125.73 82.55))
@@ -650,7 +699,7 @@
     (stroke (width 0) (type default))
     (uuid 1e15e070-6b5a-46e2-a3fc-7af74c94e28e)
   )
-  (wire (pts (xy 119.38 59.69) (xy 119.38 63.5))
+  (wire (pts (xy 119.38 57.15) (xy 119.38 63.5))
     (stroke (width 0) (type default))
     (uuid 21335573-467f-4d63-950a-3b466821188a)
   )
@@ -702,7 +751,7 @@
     (stroke (width 0) (type default))
     (uuid 4ffc9eb6-7aef-4f0b-a550-d0301f5cb5da)
   )
-  (wire (pts (xy 149.86 115.57) (xy 149.86 118.11))
+  (wire (pts (xy 149.86 114.3) (xy 149.86 118.11))
     (stroke (width 0) (type default))
     (uuid 55dc9798-4ad4-4ebd-8417-527c0744be91)
   )
@@ -734,7 +783,7 @@
     (stroke (width 0) (type default))
     (uuid 724f61eb-93ae-43e6-b9e8-01695a9ec75d)
   )
-  (wire (pts (xy 111.76 59.69) (xy 111.76 63.5))
+  (wire (pts (xy 111.76 57.15) (xy 111.76 63.5))
     (stroke (width 0) (type default))
     (uuid 82953c00-cea7-48a3-ad46-be0ae268dc0f)
   )
@@ -753,6 +802,10 @@
   (wire (pts (xy 154.94 116.84) (xy 124.46 116.84))
     (stroke (width 0) (type default))
     (uuid 93112ddf-e6aa-40cc-9dd6-22a824e35418)
+  )
+  (wire (pts (xy 111.76 57.15) (xy 115.57 57.15))
+    (stroke (width 0) (type default))
+    (uuid 9ae787ca-d9fb-4c6a-ad77-8d0d6e155b04)
   )
   (wire (pts (xy 182.88 77.47) (xy 182.88 80.01))
     (stroke (width 0) (type default))
@@ -838,7 +891,15 @@
     (stroke (width 0) (type default))
     (uuid f3bf3b5a-9a4d-4c36-9719-0f91714bbd17)
   )
-  (wire (pts (xy 257.81 66.04) (xy 257.81 71.12))
+  (wire (pts (xy 115.57 54.61) (xy 115.57 57.15))
+    (stroke (width 0) (type default))
+    (uuid f857de4f-134c-4bb7-a004-dd05fbe3f428)
+  )
+  (wire (pts (xy 119.38 57.15) (xy 115.57 57.15))
+    (stroke (width 0) (type default))
+    (uuid fd1215e2-3bad-43a3-ae00-8b9e425fcefe)
+  )
+  (wire (pts (xy 257.81 63.5) (xy 257.81 71.12))
     (stroke (width 0) (type default))
     (uuid ff9992c2-2d6e-4854-939d-09e7c94abcee)
   )
@@ -1000,6 +1061,39 @@
     )
   )
 
+  (symbol (lib_id "rpi-pico-debugger-shoe-rescue:+3.3V-power") (at 257.81 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3177f51e-e197-4c70-8d79-3a4fbc6f1350)
+    (property "Reference" "#PWR0104" (at 257.81 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 258.191 59.1058 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 257.81 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 257.81 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 72648757-8d07-44b4-ad3f-a718e8031b14))
+    (instances
+      (project "rpi-pico-debugger-shoe"
+        (path "/aad74d97-f116-4a83-b498-c8cb2f4b4e35"
+          (reference "#PWR0104") (unit 1)
+        )
+      )
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
+          (reference "#PWR0119") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 111.76 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3af2d4fe-e1e8-487f-a2cc-46f753aee39b)
@@ -1104,42 +1198,6 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 111.76 59.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5beea5a6-7c28-4f74-ae58-3cded3141019)
-    (property "Reference" "#PWR08" (at 111.76 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 112.141 55.2958 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 111.76 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 111.76 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b68fad38-402e-471e-892e-62ff88ff699a))
-    (instances
-      (project "LTP305_ESP32_CLOCK"
-        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-      (project "ltp_kikad"
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
-          (reference "#PWR020") (unit 1)
-        )
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "#PWR024") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C_Small") (at 133.35 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5bfbb700-98b6-4632-9cd5-c0155cf7d83c)
@@ -1172,42 +1230,6 @@
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
           (reference "C12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 257.81 66.04 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 69e41f1e-1844-4121-85f8-3ac56fe040cf)
-    (property "Reference" "#PWR08" (at 257.81 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 258.191 61.6458 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 257.81 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 257.81 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3755c819-45a9-4cfa-b36c-85ea9ae09528))
-    (instances
-      (project "LTP305_ESP32_CLOCK"
-        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-      (project "ltp_kikad"
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1281,6 +1303,39 @@
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
           (reference "R10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "rpi-pico-debugger-shoe-rescue:+3.3V-power") (at 115.57 54.61 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7b903c37-34ca-464d-802f-653a8a91e90e)
+    (property "Reference" "#PWR0104" (at 115.57 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 115.951 50.2158 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 115.57 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 115.57 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b9092c3c-73d7-413f-8367-4d83c71f62ee))
+    (instances
+      (project "rpi-pico-debugger-shoe"
+        (path "/aad74d97-f116-4a83-b498-c8cb2f4b4e35"
+          (reference "#PWR0104") (unit 1)
+        )
+      )
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
+          (reference "#PWR0119") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1379,6 +1434,39 @@
     )
   )
 
+  (symbol (lib_id "rpi-pico-debugger-shoe-rescue:+3.3V-power") (at 149.86 114.3 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9497ecb1-cc18-46df-9835-6f7429c78d0f)
+    (property "Reference" "#PWR0104" (at 149.86 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 150.241 109.9058 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 149.86 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 149.86 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d5244eda-b9b7-4dc7-8c6c-08079d042684))
+    (instances
+      (project "rpi-pico-debugger-shoe"
+        (path "/aad74d97-f116-4a83-b498-c8cb2f4b4e35"
+          (reference "#PWR0104") (unit 1)
+        )
+      )
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
+          (reference "#PWR0119") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
+          (reference "#PWR027") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 133.35 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2779545-b13d-46cf-8afe-dc68a38c7ca1)
@@ -1415,42 +1503,6 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 149.86 115.57 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b3d70b7e-6146-4cc1-b5ce-30736aff9654)
-    (property "Reference" "#PWR08" (at 149.86 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 150.241 111.1758 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 149.86 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 149.86 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9ad46abe-226a-4768-b115-43748640e0e4))
-    (instances
-      (project "LTP305_ESP32_CLOCK"
-        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-      (project "ltp_kikad"
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "#PWR038") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:+5V") (at 133.35 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6fd103a-e4fc-4734-ac44-a69f21acff18)
@@ -1482,42 +1534,6 @@
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
           (reference "#PWR039") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 154.94 62.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ba698bfe-e3b0-4d3d-9609-84a46edbb55c)
-    (property "Reference" "#PWR08" (at 154.94 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 155.321 57.8358 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 154.94 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 154.94 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9dd12d6a-ddf2-4494-95fa-770e662b7ead))
-    (instances
-      (project "LTP305_ESP32_CLOCK"
-        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-      (project "ltp_kikad"
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1596,37 +1612,34 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 119.38 59.69 0) (unit 1)
+  (symbol (lib_id "rpi-pico-debugger-shoe-rescue:+3.3V-power") (at 154.94 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid f58e3e23-5079-4a0e-bf7d-40ede645028d)
-    (property "Reference" "#PWR08" (at 119.38 63.5 0)
+    (uuid f4f1c704-c42c-4312-b2f2-ef6e3a1a1b7e)
+    (property "Reference" "#PWR0104" (at 154.94 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 119.761 55.2958 0)
+    (property "Value" "+3.3V" (at 155.321 57.8358 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 119.38 59.69 0)
+    (property "Footprint" "" (at 154.94 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 119.38 59.69 0)
+    (property "Datasheet" "" (at 154.94 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d1f7ada5-3295-406c-81d9-bcd120772f74))
+    (pin "1" (uuid 26983105-28d5-484e-ae38-cf310c4cd158))
     (instances
-      (project "LTP305_ESP32_CLOCK"
-        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
-          (reference "#PWR08") (unit 1)
+      (project "rpi-pico-debugger-shoe"
+        (path "/aad74d97-f116-4a83-b498-c8cb2f4b4e35"
+          (reference "#PWR0104") (unit 1)
         )
       )
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR0119") (unit 1)
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
