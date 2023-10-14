@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SS14
+D MULTICOMP - SS14 - Schottky Rectifier, 40 V, 1 A, Single, DO-214AC (SMA), 2 Pins, 750 mV
+K
+F https://componentsearchengine.com/Datasheets/2/SS14.pdf
+$ENDCMP
+#
+#End Doc Library

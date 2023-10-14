@@ -483,58 +483,6 @@
         )
       )
     )
-    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+5V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+5V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+5V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -735,7 +683,7 @@
     (stroke (width 0) (type default))
     (uuid 485e6260-e2b5-448b-983f-9bb4d27f4aaa)
   )
-  (wire (pts (xy 133.35 127) (xy 133.35 130.81))
+  (wire (pts (xy 133.35 124.46) (xy 133.35 130.81))
     (stroke (width 0) (type default))
     (uuid 4af5cce4-2e08-4da7-92f0-e4a15c70f9f6)
   )
@@ -992,6 +940,39 @@
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
           (reference "#PWR028") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "rpi-pico-debugger-shoe-rescue:+3.3V-power") (at 133.35 124.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1782f1b6-1e28-4ec3-a772-8f77c1462ace)
+    (property "Reference" "#PWR0104" (at 133.35 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 133.731 120.0658 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 133.35 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 133.35 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2e40c866-28b7-4e79-a2cc-a1bcb0b22926))
+    (instances
+      (project "rpi-pico-debugger-shoe"
+        (path "/aad74d97-f116-4a83-b498-c8cb2f4b4e35"
+          (reference "#PWR0104") (unit 1)
+        )
+      )
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
+          (reference "#PWR0119") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1498,42 +1479,6 @@
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
           (reference "#PWR040") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 133.35 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b6fd103a-e4fc-4734-ac44-a69f21acff18)
-    (property "Reference" "#PWR08" (at 133.35 130.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 133.731 122.6058 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 133.35 127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 133.35 127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 84739a78-6ce1-4af1-aa19-a14c92ab1e2c))
-    (instances
-      (project "LTP305_ESP32_CLOCK"
-        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-      (project "ltp_kikad"
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
-          (reference "#PWR020") (unit 1)
-        )
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "#PWR039") (unit 1)
         )
       )
     )

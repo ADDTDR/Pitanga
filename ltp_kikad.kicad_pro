@@ -504,6 +504,10 @@
     [
       "eeffdcd2-f49f-4c6e-9443-50950813e7b1",
       "Qwiik stemma connector"
+    ],
+    [
+      "33d95c3e-c610-4cbf-8d54-0fda3fab7640",
+      "DCDC"
     ]
   ],
   "text_variables": {}

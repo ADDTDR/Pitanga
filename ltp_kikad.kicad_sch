@@ -2015,6 +2015,26 @@
     )
   )
 
+  (sheet (at 116.84 125.73) (size 57.15 8.89) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 33d95c3e-c610-4cbf-8d54-0fda3fab7640)
+    (property "Sheetname" "DCDC" (at 116.84 125.0184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "dcdc.kicad_sch" (at 116.84 135.2046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 116.84 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba" (page "5"))
+      )
+    )
+  )
+
   (sheet (at 116.84 59.69) (size 57.15 7.62) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

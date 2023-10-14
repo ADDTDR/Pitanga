@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ME2108A33M3G
+D 6.5V 400mA SOT-23(SOT-23-3) DC-DC Converters RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/Nanjing-Micro-One-Elec-ME2108A50M3G_C14839.pdf
+$ENDCMP
+#
+#End Doc Library
