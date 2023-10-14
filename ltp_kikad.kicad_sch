@@ -2069,6 +2069,23 @@
     )
   )
 
+  (sheet (at 116.84 41.91) (size 57.15 8.89) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e885c20e-c513-4e27-ac27-692e5f196b61)
+    (property "Sheetname" "I2c_tranciever" (at 116.84 41.1984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "i2c_tramsciever.kicad_sch" (at 116.84 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba" (page "6"))
+      )
+    )
+  )
+
   (sheet (at 116.84 88.9) (size 57.15 7.62) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

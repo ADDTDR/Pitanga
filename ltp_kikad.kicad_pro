@@ -60,8 +60,10 @@
         "courtyards_overlap|141552220|63145001|023e3165-659f-4063-951f-d4d328948836|727a5031-882b-4b27-a5b0-6203e9d705da",
         "courtyards_overlap|151552001|63144601|023e3165-659f-4063-951f-d4d328948836|c63506aa-32fc-4609-8dd0-3f810760a6af",
         "courtyards_overlap|161552001|63145001|654b4145-0a2b-4387-899b-c569ff6fdd89|c63506aa-32fc-4609-8dd0-3f810760a6af",
+        "courtyards_overlap|165999999|107450001|4d02e370-fca2-4282-886b-2c07be47bbf6|c0e055d7-f6fe-4e73-b66b-99e84ccf5b12",
         "courtyards_overlap|171552001|63145001|00b6771c-6915-4e56-a018-ff58586ee667|654b4145-0a2b-4387-899b-c569ff6fdd89",
         "silk_overlap|171802000|82145000|8e30a966-0005-419d-9366-7d9584245c2e|087cc90a-fefd-4196-bdc5-36a3763a3bd6",
+        "starved_thermal|147762000|88350000|c8bda129-9765-4519-b857-a8206b90a3f2|c5b24b2a-de4c-4ad9-908e-a1dc374711ab|B.Cu",
         "starved_thermal|160000000|106600000|c8bda129-9765-4519-b857-a8206b90a3f2|3ec94f50-b868-42e4-bfaf-4578993c11ea|F.Cu"
       ],
       "meta": {
@@ -508,6 +510,10 @@
     [
       "33d95c3e-c610-4cbf-8d54-0fda3fab7640",
       "DCDC"
+    ],
+    [
+      "e885c20e-c513-4e27-ac27-692e5f196b61",
+      "I2c_tranciever"
     ]
   ],
   "text_variables": {}
