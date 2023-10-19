@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Pitanga HAT")
+    (date "2023-10-19")
+    (rev "2.1")
+    (company "Andrew Tudoroi")
+  )
+
   (lib_symbols
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
@@ -831,10 +838,6 @@
     (stroke (width 0) (type default))
     (uuid a6007003-a192-41d3-a27b-70d005b15b83)
   )
-  (wire (pts (xy 119.38 77.47) (xy 119.38 82.55))
-    (stroke (width 0) (type default))
-    (uuid a66adecd-62f7-4499-91e3-6ff36fc267b3)
-  )
   (wire (pts (xy 190.5 102.87) (xy 193.04 102.87))
     (stroke (width 0) (type default))
     (uuid a6f8f778-9cd1-40c5-b8c3-0d53221691aa)
@@ -891,6 +894,10 @@
     (stroke (width 0) (type default))
     (uuid d1111a0d-e441-4873-9c7d-1edb766a7782)
   )
+  (wire (pts (xy 33.02 58.42) (xy 33.02 60.96))
+    (stroke (width 0) (type default))
+    (uuid d199baa2-8043-4a62-ac6f-5abe76b476b2)
+  )
   (wire (pts (xy 201.93 85.09) (xy 201.93 92.71))
     (stroke (width 0) (type default))
     (uuid d3287c16-3691-41b1-9303-29bfddead9fa)
@@ -902,10 +909,6 @@
   (wire (pts (xy 190.5 90.17) (xy 193.04 90.17))
     (stroke (width 0) (type default))
     (uuid da58a589-8aff-4d04-8ff5-ae64638c5898)
-  )
-  (wire (pts (xy 119.38 64.77) (xy 119.38 72.39))
-    (stroke (width 0) (type default))
-    (uuid da6c5c67-84da-4894-8d14-3ac276fc6a32)
   )
   (wire (pts (xy 190.5 64.77) (xy 193.04 64.77))
     (stroke (width 0) (type default))
@@ -942,6 +945,10 @@
   (wire (pts (xy 147.32 113.03) (xy 147.32 115.57))
     (stroke (width 0) (type default))
     (uuid fabb5e81-9248-4ea8-8179-481cf3bed2e5)
+  )
+  (wire (pts (xy 33.02 50.8) (xy 33.02 53.34))
+    (stroke (width 0) (type default))
+    (uuid fb3b623f-a13b-4fe8-a9f2-5862664a7ba5)
   )
   (wire (pts (xy 205.74 95.25) (xy 210.82 95.25))
     (stroke (width 0) (type default))
@@ -1423,34 +1430,31 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 119.38 82.55 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 33.02 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 176a502a-c58c-46e4-b1ba-d44093a85347)
-    (property "Reference" "#PWR033" (at 119.38 88.9 0)
+    (uuid 058a6a5e-a045-414f-a8a9-1aa648e3b97e)
+    (property "Reference" "#PWR08" (at 33.02 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 119.507 86.9442 0)
+    (property "Value" "+5V" (at 33.401 46.4058 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 119.38 82.55 0)
+    (property "Footprint" "" (at 33.02 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 119.38 82.55 0)
+    (property "Datasheet" "" (at 33.02 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9c5a4306-dd2f-42a5-8674-c30de66d7036))
+    (pin "1" (uuid 14a16d0e-3338-40ca-958e-a81dcb1a09b5))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR09") (unit 1)
-        )
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/eeffdcd2-f49f-4c6e-9443-50950813e7b1"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
           (reference "#PWR035") (unit 1)
@@ -1596,39 +1600,6 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 119.38 64.77 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 26d7faeb-ad70-45cd-b740-9623d79a1de1)
-    (property "Reference" "#PWR08" (at 119.38 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 119.761 60.3758 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 119.38 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 119.38 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 962005ea-6698-4475-b73d-88611836bc42))
-    (instances
-      (project "LTP305_ESP32_CLOCK"
-        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-      (project "ltp_kikad"
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
-          (reference "#PWR038") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 147.32 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ce5b46a-2244-4b7a-9ba2-0d6eefb71f95)
@@ -1705,7 +1676,7 @@
     (property "Value" "1N4148" (at 212.09 51.4096 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_0805_2012Metric" (at 212.09 54.61 0)
+    (property "Footprint" "Diode_SMD:D_SOD-523" (at 212.09 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 212.09 54.61 0)
@@ -1739,7 +1710,7 @@
     (property "Value" "1N4148" (at 97.79 42.5196 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_0805_2012Metric" (at 97.79 45.72 0)
+    (property "Footprint" "Diode_SMD:D_SOD-523" (at 97.79 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 97.79 45.72 0)
@@ -1759,6 +1730,43 @@
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
           (reference "D4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 33.02 55.88 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4426b7ba-e6b2-48da-9bc4-e46fc3291e0a)
+    (property "Reference" "C7" (at 38.1 54.61 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "15uF" (at 38.1 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" (at 33.02 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 33.02 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0d8c6327-9eeb-4202-8a97-a0e61f77a33e))
+    (pin "2" (uuid 15429ab5-62b1-4b84-be1b-89b632be3420))
+    (instances
+      (project "LTP305_ESP32_CLOCK"
+        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
+          (reference "C7") (unit 1)
+        )
+      )
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
+          (reference "C6") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/eeffdcd2-f49f-4c6e-9443-50950813e7b1"
+          (reference "C10") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -1964,43 +1972,6 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 119.38 74.93 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 644bae87-c7d4-4f60-98fb-e19d8624b550)
-    (property "Reference" "C7" (at 124.46 73.66 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "15uF" (at 124.46 76.2 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" (at 119.38 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 119.38 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 77899093-be86-4274-96ff-ef07da9318d4))
-    (pin "2" (uuid 72ea837b-b8e5-4a33-bc26-f4e826242eda))
-    (instances
-      (project "LTP305_ESP32_CLOCK"
-        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
-          (reference "C7") (unit 1)
-        )
-      )
-      (project "ltp_kikad"
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "C6") (unit 1)
-        )
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/eeffdcd2-f49f-4c6e-9443-50950813e7b1"
-          (reference "C10") (unit 1)
-        )
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
-          (reference "C10") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 133.35 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 706a5246-82df-4f81-84ca-5f02d7c6c02d)
@@ -2123,6 +2094,42 @@
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
           (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 33.02 60.96 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9ba6a711-a488-4301-9e71-39a7a4dd924a)
+    (property "Reference" "#PWR033" (at 33.02 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 33.147 65.3542 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 33.02 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 33.02 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 91f0889d-c751-4189-ad14-6e6966403f02))
+    (instances
+      (project "LTP305_ESP32_CLOCK"
+        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
+          (reference "#PWR033") (unit 1)
+        )
+      )
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
+          (reference "#PWR09") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/eeffdcd2-f49f-4c6e-9443-50950813e7b1"
+          (reference "#PWR035") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -2293,7 +2300,7 @@
     (property "Value" "1N4148" (at 194.31 38.7096 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_0805_2012Metric" (at 194.31 41.91 0)
+    (property "Footprint" "Diode_SMD:D_SOD-523" (at 194.31 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 194.31 41.91 0)

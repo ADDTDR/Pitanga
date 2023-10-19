@@ -500,20 +500,24 @@
       "Led Drivers"
     ],
     [
-      "c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a",
-      "MCU"
-    ],
-    [
-      "eeffdcd2-f49f-4c6e-9443-50950813e7b1",
-      "Qwiik stemma connector"
+      "e05e8139-1faf-431e-811a-0c8c9c11d23c",
+      "LED Displays"
     ],
     [
       "33d95c3e-c610-4cbf-8d54-0fda3fab7640",
       "DCDC"
     ],
     [
+      "eeffdcd2-f49f-4c6e-9443-50950813e7b1",
+      "Qwiik stemma connector"
+    ],
+    [
       "e885c20e-c513-4e27-ac27-692e5f196b61",
       "I2c_tranciever"
+    ],
+    [
+      "c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a",
+      "MCU"
     ]
   ],
   "text_variables": {}
