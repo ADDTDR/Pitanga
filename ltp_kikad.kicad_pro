@@ -496,6 +496,10 @@
       ""
     ],
     [
+      "b2bdc1ec-70af-477f-a795-a805f5a4434d",
+      "LED Displays"
+    ],
+    [
       "7d22e16e-a0ba-4766-b1de-c8cbb28f14f7",
       "Led Drivers"
     ],
@@ -508,12 +512,12 @@
       "Qwiik stemma connector"
     ],
     [
-      "33d95c3e-c610-4cbf-8d54-0fda3fab7640",
-      "DCDC"
-    ],
-    [
       "e885c20e-c513-4e27-ac27-692e5f196b61",
       "I2c_tranciever"
+    ],
+    [
+      "33d95c3e-c610-4cbf-8d54-0fda3fab7640",
+      "DCDC"
     ]
   ],
   "text_variables": {}
