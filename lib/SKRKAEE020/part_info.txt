@@ -1,0 +1,9 @@
+Manufacturer=ALPS Electric
+PartNumber=SKRKAEE020
+PartCategory=Switch
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2018-03-28 15:04:28
+Downloaded=2023-10-20 20:44:13
+3D=Y
