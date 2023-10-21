@@ -785,7 +785,7 @@
     )
     (instances
       (project "ltp_kikad"
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba" (page "2"))
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba" (page "3"))
       )
     )
   )
@@ -819,7 +819,7 @@
     )
     (instances
       (project "ltp_kikad"
-        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba" (page "3"))
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba" (page "2"))
       )
     )
   )
