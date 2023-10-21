@@ -53,7 +53,7 @@
   (pad "12" thru_hole circle (at 7.62 5.08) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 5c7ca72b-0b11-430d-a6db-8a016dd74f69))
   (pad "13" thru_hole circle (at 7.62 2.54) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 7d000b6d-1d82-466a-9db5-6ebbc374e8bd))
   (pad "14" thru_hole circle (at 7.62 0) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 91b15f26-f4bf-4219-be32-06aa01d80ed0))
-  (model "${LOCAL}/LTP-305G.stp"
+  (model "${KIPRJMOD}/3dmodels/LTP-305G.stp"
     (offset (xyz 3.8 -7.6 4.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

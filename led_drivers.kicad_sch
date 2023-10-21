@@ -639,6 +639,10 @@
     (stroke (width 0) (type default))
     (uuid 3b85e923-643e-40e2-baaf-5aae8994542b)
   )
+  (wire (pts (xy 21.59 58.42) (xy 21.59 60.96))
+    (stroke (width 0) (type default))
+    (uuid 3cbf0768-cdc4-4d8b-aa5e-c05afca18369)
+  )
   (wire (pts (xy 222.25 87.63) (xy 205.74 87.63))
     (stroke (width 0) (type default))
     (uuid 3e65e4af-cb92-4c6b-9a12-837421bda97d)
@@ -898,6 +902,10 @@
   (wire (pts (xy 109.22 38.1) (xy 111.76 38.1))
     (stroke (width 0) (type default))
     (uuid d1111a0d-e441-4873-9c7d-1edb766a7782)
+  )
+  (wire (pts (xy 21.59 50.8) (xy 21.59 53.34))
+    (stroke (width 0) (type default))
+    (uuid d117601e-a18d-4b91-b6f8-8a1991b08577)
   )
   (wire (pts (xy 33.02 58.42) (xy 33.02 60.96))
     (stroke (width 0) (type default))
@@ -2284,6 +2292,39 @@
     )
   )
 
+  (symbol (lib_id "power:+5V") (at 21.59 50.8 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b78aa0e6-91aa-434b-8cf6-710cb043457f)
+    (property "Reference" "#PWR08" (at 21.59 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 21.971 46.4058 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 21.59 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 21.59 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aa4b8ce2-47be-42cf-9b0d-3173581a0cec))
+    (instances
+      (project "LTP305_ESP32_CLOCK"
+        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
+          (reference "#PWR030") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Switch:SW_Omron_B3FS") (at 93.98 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2053540-8abe-46c4-b08a-3f8ca49debea)
@@ -2305,6 +2346,43 @@
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
           (reference "SW2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 21.59 55.88 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c550a4c0-cc24-449d-a9bd-ad3c9a2b5930)
+    (property "Reference" "C7" (at 26.67 54.61 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "15uF" (at 26.67 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" (at 21.59 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 21.59 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2ee07103-202b-4b41-adac-e4e841887717))
+    (pin "2" (uuid 4776ed33-6d42-454e-a32b-8538fdaaa596))
+    (instances
+      (project "LTP305_ESP32_CLOCK"
+        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
+          (reference "C7") (unit 1)
+        )
+      )
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
+          (reference "C6") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/eeffdcd2-f49f-4c6e-9443-50950813e7b1"
+          (reference "C10") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -2544,6 +2622,42 @@
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
           (reference "#PWR05") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 21.59 60.96 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e7d8b65f-f0be-4c18-ab00-c8f630be3763)
+    (property "Reference" "#PWR033" (at 21.59 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 21.717 65.3542 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 21.59 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 21.59 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f880a920-3fb7-46d0-9ac7-ab4787b85bb7))
+    (instances
+      (project "LTP305_ESP32_CLOCK"
+        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
+          (reference "#PWR033") (unit 1)
+        )
+      )
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
+          (reference "#PWR09") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/eeffdcd2-f49f-4c6e-9443-50950813e7b1"
+          (reference "#PWR035") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
+          (reference "#PWR047") (unit 1)
         )
       )
     )
