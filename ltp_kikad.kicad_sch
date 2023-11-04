@@ -194,6 +194,58 @@
         )
       )
     )
+    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+5V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+5V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+5V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+5V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -282,16 +334,25 @@
     )
   )
 
+  (junction (at 265.43 43.18) (diameter 0) (color 0 0 0 0)
+    (uuid 5ca384e3-d583-4a5f-a82d-3fc20d28d5e5)
+  )
 
   (no_connect (at 215.9 49.53) (uuid 1e31534b-d945-4bad-bf32-e5b0c2994286))
   (no_connect (at 215.9 57.15) (uuid 2449eb2f-8437-4ad7-b209-5e3bde42d3e1))
   (no_connect (at 215.9 54.61) (uuid 47f9d7af-0271-4f0d-a7fd-3dac5638c361))
-  (no_connect (at 266.7 41.91) (uuid 529f67d9-ccdf-46af-aa4a-4685a0e0a2b8))
-  (no_connect (at 266.7 44.45) (uuid d7cc0e6e-bef5-49d9-9b06-4b463379969b))
 
+  (wire (pts (xy 265.43 41.91) (xy 265.43 43.18))
+    (stroke (width 0) (type default))
+    (uuid 07e2004c-834f-4aa1-90c6-f245bab63ab1)
+  )
   (wire (pts (xy 200.66 59.69) (xy 200.66 62.23))
     (stroke (width 0) (type default))
     (uuid 107cb054-9791-43d1-afc6-3cdf849e9b57)
+  )
+  (wire (pts (xy 265.43 43.18) (xy 265.43 44.45))
+    (stroke (width 0) (type default))
+    (uuid 1418d1ae-f74d-4122-8ebd-aff8267e4ff4)
   )
   (wire (pts (xy 198.12 46.99) (xy 217.17 46.99))
     (stroke (width 0) (type default))
@@ -328,6 +389,10 @@
   (wire (pts (xy 265.43 77.47) (xy 276.86 77.47))
     (stroke (width 0) (type default))
     (uuid 983c527c-f1a7-4909-b3eb-ecbdaf312ed6)
+  )
+  (wire (pts (xy 265.43 43.18) (xy 269.24 43.18))
+    (stroke (width 0) (type default))
+    (uuid a6563b46-e25a-4d38-b053-7f270caaa415)
   )
   (wire (pts (xy 200.66 62.23) (xy 217.17 62.23))
     (stroke (width 0) (type default))
@@ -405,7 +470,7 @@
       )
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -435,7 +500,7 @@
       )
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -465,7 +530,7 @@
       )
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -495,7 +560,7 @@
       )
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -525,7 +590,7 @@
       )
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -555,7 +620,7 @@
       )
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -585,7 +650,7 @@
       )
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -615,7 +680,7 @@
       )
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -687,7 +752,7 @@
       )
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -717,7 +782,7 @@
       )
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -747,7 +812,40 @@
       )
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 269.24 43.18 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f1002b29-f7c0-4338-adbc-3ce9958d4857)
+    (property "Reference" "#PWR0101" (at 269.24 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 269.621 38.7858 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 269.24 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 269.24 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 68e19d24-fb0a-46db-8cf8-c54d1f69a552))
+    (instances
+      (project "LTP305_ESP32_CLOCK"
+        (path "/c007e288-8439-49d9-bbdf-49724c34958c"
+          (reference "#PWR0101") (unit 1)
+        )
+      )
+      (project "ltp_kikad"
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/e885c20e-c513-4e27-ac27-692e5f196b61"
+          (reference "#PWR038") (unit 1)
+        )
+        (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
+          (reference "#PWR050") (unit 1)
         )
       )
     )

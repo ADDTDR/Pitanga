@@ -880,7 +880,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "SDA" (shape input) (at 123.19 82.55 180)
+  (global_label "MCU_SDA" (shape input) (at 123.19 82.55 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 76194391-beef-482e-9873-d83126fe9ccc)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 123.19 82.55 0)
@@ -915,7 +915,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "SCL" (shape input) (at 187.96 82.55 0)
+  (global_label "MCU_SCL" (shape input) (at 187.96 82.55 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid ebeb08be-8abb-4780-94f9-a4efed146083)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 194.3734 82.55 0)
@@ -953,7 +953,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -962,7 +962,7 @@
   (symbol (lib_id "MCU_ST_STM32G0:STM32G031J6Mx") (at 152.4 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1938399f-673a-42b9-bd55-bfcd685c10b9)
-    (property "Reference" "U1" (at 157.1341 69.85 0)
+    (property "Reference" "U2" (at 157.1341 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32G031J6Mx" (at 157.1341 72.39 0)
@@ -985,7 +985,7 @@
     (instances
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -994,7 +994,7 @@
   (symbol (lib_id "Connector:Conn_01x08_Pin") (at 154.94 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27b097aa-6e76-4f49-b8d5-05fdc77b9364)
-    (property "Reference" "J5" (at 156.21 127 90)
+    (property "Reference" "J4" (at 156.21 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x08_Pin" (at 156.21 129.54 90)
@@ -1017,7 +1017,7 @@
     (instances
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "J5") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -1050,7 +1050,7 @@
           (reference "#PWR0119") (unit 1)
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -1086,7 +1086,7 @@
           (reference "#PWR021") (unit 1)
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -1095,7 +1095,7 @@
   (symbol (lib_id "Connector:Conn_01x08_Pin") (at 154.94 137.16 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4475958f-63bc-4644-8839-cd58935d2dff)
-    (property "Reference" "J6" (at 156.21 139.7 90)
+    (property "Reference" "J5" (at 156.21 139.7 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x08_Pin" (at 156.21 142.24 90)
@@ -1118,7 +1118,7 @@
     (instances
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "J6") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -1154,7 +1154,7 @@
           (reference "#PWR012") (unit 1)
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -1191,7 +1191,7 @@
           (reference "C4") (unit 1)
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "C12") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -1227,7 +1227,7 @@
           (reference "#PWR012") (unit 1)
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -1264,7 +1264,7 @@
           (reference "R2") (unit 1)
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "R10") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -1297,7 +1297,7 @@
           (reference "#PWR0119") (unit 1)
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -1334,7 +1334,7 @@
           (reference "C2") (unit 1)
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "C9") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -1343,7 +1343,7 @@
   (symbol (lib_id "Device:LED") (at 200.66 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 898d36ef-8d4c-4b31-9c8b-3391c95edd0a)
-    (property "Reference" "D3" (at 202.2475 62.23 0)
+    (property "Reference" "D4" (at 202.2475 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 202.2475 64.77 0)
@@ -1360,7 +1360,7 @@
     (instances
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "D3") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1369,7 +1369,7 @@
   (symbol (lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL") (at 260.35 81.28 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92e2b7a0-9840-4117-aad1-fadb893bca98)
-    (property "Reference" "J4" (at 254 80.01 0)
+    (property "Reference" "J6" (at 254 80.01 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL" (at 254 82.55 0)
@@ -1390,7 +1390,7 @@
     (instances
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "J4") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -1423,7 +1423,7 @@
           (reference "#PWR0119") (unit 1)
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -1459,7 +1459,7 @@
           (reference "#PWR021") (unit 1)
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -1495,7 +1495,7 @@
           (reference "#PWR012") (unit 1)
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -1532,7 +1532,7 @@
           (reference "C4") (unit 1)
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "C7") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -1565,7 +1565,7 @@
           (reference "#PWR0119") (unit 1)
         )
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/c7f9496d-fb5e-4ce7-92b5-54c2d3a6681a"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
