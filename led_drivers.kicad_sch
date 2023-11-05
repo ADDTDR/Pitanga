@@ -1498,7 +1498,7 @@
     (property "Datasheet" "" (at 33.02 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 14a16d0e-3338-40ca-958e-a81dcb1a09b5))
+    (pin "1" (uuid 86d50998-4fa7-4c94-8bbb-f8060e912080))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -1534,8 +1534,8 @@
     (property "Function" "A1" (at 105.41 38.1 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 75758600-8645-47a1-adf0-ebe01c8cbad1))
-    (pin "2" (uuid 1693a5b7-cadc-4de2-ab68-b2b7ab3ca1ab))
+    (pin "1" (uuid 46ed8dd7-6301-46b2-a625-c99fd6e40a05))
+    (pin "2" (uuid 48e60490-be16-4ade-b9c4-e5f3b9b49e8c))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -1580,34 +1580,34 @@
     (property "Manufacturer_Part_Number" "HT16K33-28SOP" (at 88.9 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 05c52a88-52cc-4f36-a57e-7c5b5b94a9ab))
-    (pin "10" (uuid 6da94e45-e63f-4de0-bc65-6df71748d797))
-    (pin "11" (uuid f9ee7410-e09e-41f8-806b-9d77367eb9a0))
-    (pin "12" (uuid c8941b48-acf2-493e-8468-828a0a698322))
-    (pin "13" (uuid 1ba7e719-5c86-44ce-b88a-65c508a5dd8c))
-    (pin "14" (uuid 96c50db9-e9f8-423a-a4d9-2cdbfce8400d))
-    (pin "15" (uuid e06798c7-6792-4567-92ea-7b7e8f783027))
-    (pin "16" (uuid 41293e85-cdab-4f38-811b-a08be2820627))
-    (pin "17" (uuid 9a26fe6c-ec70-4a6c-b293-48f650a3292a))
-    (pin "18" (uuid e9ca2f8f-57b8-46cf-a810-4a0152891e1d))
-    (pin "19" (uuid b7a184fd-a984-4eac-a6d3-14cab1fbcf35))
-    (pin "2" (uuid 872106b1-67b7-454e-8aac-e9bf4186f585))
-    (pin "20" (uuid 0dbb812b-73be-4a81-9b4c-709e73d4eed2))
-    (pin "21" (uuid 823e5397-a5ce-4a83-b178-e7eb86b185c4))
-    (pin "22" (uuid dd22d353-c151-4a74-b1a1-a7855aad6de6))
-    (pin "23" (uuid a81f2638-3592-423c-9c6e-b339dbd1b218))
-    (pin "24" (uuid 05412260-7597-45d7-86cb-5cf85d22fabd))
-    (pin "25" (uuid eceaa7a0-673b-4da2-a576-41b59b03aca7))
-    (pin "26" (uuid 9b77126d-d8a2-401f-bc3b-e428692e1967))
-    (pin "27" (uuid 5ad6d9e1-8eaf-4b68-9095-7b5084059579))
-    (pin "28" (uuid 5297d410-c2ce-4e74-8be6-67634dd1c6f6))
-    (pin "3" (uuid 7dec33b7-81a1-4eb2-b592-b545725d0311))
-    (pin "4" (uuid af4f3fc8-f3fb-4421-85af-96c1216c62a5))
-    (pin "5" (uuid ef8234dc-0276-4887-ba4a-fe96443a8be5))
-    (pin "6" (uuid dc89bb57-7562-4f3d-96f5-e27d763f2479))
-    (pin "7" (uuid 6f3376bd-5b55-4ae4-8dc0-cff526506580))
-    (pin "8" (uuid 03e40c05-8d7e-40b3-9363-c51d9c80569f))
-    (pin "9" (uuid 89356f1f-8d2f-4080-9f4d-5397a40a0fb1))
+    (pin "1" (uuid 20e812ff-fbd5-44ed-893d-2d803bedbcdb))
+    (pin "10" (uuid eb3db3f2-466c-4997-b44a-5f32bfe1892f))
+    (pin "11" (uuid 34170d10-1ef9-48b2-9296-367abbbf3ad3))
+    (pin "12" (uuid ff85c2a7-72a9-42ef-91cc-53aa73ef7bfd))
+    (pin "13" (uuid 4eb391f1-79d3-4f64-9360-e071de31b8b7))
+    (pin "14" (uuid 6cb64f0c-33a9-4f90-973c-350958cca5c2))
+    (pin "15" (uuid 78f4ce63-37c0-4126-9a79-99d626cef594))
+    (pin "16" (uuid 620e6a49-685b-4e4f-929b-ca08db2f169e))
+    (pin "17" (uuid d9d37656-9124-4286-8b7e-5fe1e99091c1))
+    (pin "18" (uuid 99633cd2-8bf5-42ff-9efd-19377a02c823))
+    (pin "19" (uuid 6aa1f090-85ec-48b1-a72c-ee68a70f69e7))
+    (pin "2" (uuid a286eaec-15a0-4f3e-b42d-eb863c71fc9b))
+    (pin "20" (uuid 4aef6d2c-b44a-4a7d-aefa-c7bd717de6f4))
+    (pin "21" (uuid 5ee37203-4a8e-4e73-9ed1-74c57942fccf))
+    (pin "22" (uuid 48c28261-09b5-4396-93fb-5ed08e44ecc2))
+    (pin "23" (uuid d4acb958-f716-4ba2-8a55-054d03f985cc))
+    (pin "24" (uuid e84dbc95-322c-4162-bd39-97bfb5c667aa))
+    (pin "25" (uuid 0e7d311d-6864-44cf-9fe7-ebedc398e5b9))
+    (pin "26" (uuid 7561d017-794b-4c96-bed6-86a334f10cdc))
+    (pin "27" (uuid 13746eca-3759-4a88-bb30-7c59db60099c))
+    (pin "28" (uuid bba3c5ed-afd1-4ea7-9da9-83fafa4f660c))
+    (pin "3" (uuid 175ba375-784b-49c0-b31b-d1c8b61d42be))
+    (pin "4" (uuid b6c43f78-e79b-44bb-9caf-9d27a51c8eee))
+    (pin "5" (uuid 0d7a493d-1273-4a47-bbcf-58c542564b48))
+    (pin "6" (uuid 6027ad93-fb3d-435d-bc7e-6c9245049b10))
+    (pin "7" (uuid 0b768846-b61e-4b14-afd5-053e907c570f))
+    (pin "8" (uuid ec53e28e-c51f-49de-9ebe-71a18e24bd03))
+    (pin "9" (uuid 5d433ac7-a362-434e-a50c-4e5890a1cdb9))
     (instances
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
@@ -1635,7 +1635,7 @@
     (property "Datasheet" "" (at 43.18 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 70ab5b9d-3b51-4596-83cc-b8fe5fd99b0a))
+    (pin "1" (uuid 5d560a69-52f2-4554-9a03-ebb38a040288))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -1668,7 +1668,7 @@
     (property "Datasheet" "" (at 147.32 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 383dd0b0-6715-4f6a-b1e0-2ec017dc82a4))
+    (pin "1" (uuid 782dfe05-3b44-45cf-96d4-dc96cf351124))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -1701,8 +1701,8 @@
     (property "Datasheet" "~" (at 133.35 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8255dd2e-7115-47f9-a324-f3f70d8e7580))
-    (pin "2" (uuid 6e59d544-9a8b-44a6-b5ba-45692bb3cbee))
+    (pin "1" (uuid 964c79e8-664d-494a-8d87-353c7ad70398))
+    (pin "2" (uuid a57423e8-ac8f-44e3-bd9c-7017b1866908))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -1735,8 +1735,8 @@
     (property "Datasheet" "~" (at 212.09 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 236265c5-f645-479c-b116-8838f1fde970))
-    (pin "2" (uuid 6cfada7e-2dd1-4224-b5b4-a51b80042443))
+    (pin "1" (uuid f24cbb3f-f7e9-4337-b4ec-8438d22cfc64))
+    (pin "2" (uuid 8091c28a-3756-4dec-ad1c-6291b011f972))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -1769,8 +1769,8 @@
     (property "Datasheet" "~" (at 97.79 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 128ad8f7-b5b8-4203-8e79-fff3752e1be0))
-    (pin "2" (uuid ef403714-5845-4fa0-8d52-d945ac262fe0))
+    (pin "1" (uuid da5e21a6-b8d9-49a2-8660-7a4b1fe0d21f))
+    (pin "2" (uuid 6daecd91-dc20-419a-ab90-7f76f13cec77))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -1803,8 +1803,8 @@
     (property "Datasheet" "~" (at 33.02 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0d8c6327-9eeb-4202-8a97-a0e61f77a33e))
-    (pin "2" (uuid 15429ab5-62b1-4b84-be1b-89b632be3420))
+    (pin "1" (uuid 29642394-c1d5-426f-87eb-fd4de623e689))
+    (pin "2" (uuid e3a9ec79-a3e1-4317-bf4d-f6dbd4ad16c1))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -1840,8 +1840,8 @@
     (property "Datasheet" "~" (at 140.97 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d8a54c9e-78d1-4908-aebd-297d121e9680))
-    (pin "2" (uuid 4e8592a6-4aa2-40c2-9c18-98266b39b4f6))
+    (pin "1" (uuid e13c2aef-e477-4f75-b040-942633f3e939))
+    (pin "2" (uuid de7c43d7-281c-4969-aef4-da1196c2e6aa))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -1874,7 +1874,7 @@
     (property "Datasheet" "" (at 45.72 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8b11608c-095f-4496-b1a3-41865cea1050))
+    (pin "1" (uuid 9cb1cccd-69ca-4896-ba9d-2a07d9f6e5dd))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -1907,8 +1907,8 @@
     (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf" (at 111.76 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 91ee3031-4e3e-4673-9726-c9087e373fa8))
-    (pin "2" (uuid b4bbbac4-cfb7-415d-80a1-0a6a90c5cab6))
+    (pin "1" (uuid 79af2e5b-bd8f-40d7-85d0-be1b66bac5d7))
+    (pin "2" (uuid 90cf0959-ba91-4c9c-b899-7d81c03fe1d4))
     (instances
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
@@ -1933,7 +1933,7 @@
     (property "Datasheet" "" (at 133.35 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0a2daef9-cda1-4e78-96ff-8a6a0378be52))
+    (pin "1" (uuid b3209edc-3820-4c73-b7ad-bacad1c011b6))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -1969,8 +1969,8 @@
     (property "Function" "A1" (at 201.93 34.29 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3959b80b-64b8-4cf6-8f9a-3f97a317fd0e))
-    (pin "2" (uuid 5fcef65c-7169-4a19-96e6-0c60ab5e2470))
+    (pin "1" (uuid d55c06cd-228c-481c-b39c-6328269d42c7))
+    (pin "2" (uuid d8c67b94-5336-4f48-8133-120536f2cb3f))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2006,8 +2006,8 @@
     (property "Function" "A0" (at 105.41 45.72 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 515a2c39-b26a-4988-bed6-18268037ee46))
-    (pin "2" (uuid 60850e22-7317-48bc-9689-9a54da4c6250))
+    (pin "1" (uuid d53bd79b-3e18-4b21-aeef-83bfe09c875d))
+    (pin "2" (uuid ce4aa3f1-a077-495a-bad7-234585310b5c))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2040,7 +2040,7 @@
     (property "Datasheet" "" (at 133.35 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid df250c89-dfa0-4ca9-834d-1ef947d1cb24))
+    (pin "1" (uuid 30fc5211-ec20-44ac-800f-e43db0f107bf))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2073,8 +2073,8 @@
     (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf" (at 111.76 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 64d1fc51-a8b6-4003-a86c-416b4ddbab92))
-    (pin "2" (uuid fc53e6d8-6435-4d11-886f-da5f92971e3b))
+    (pin "1" (uuid 9edc34e2-0532-44f2-9064-296aeb3c6ab0))
+    (pin "2" (uuid 76cd8e84-55ef-4b26-a866-d1210e4e73c9))
     (instances
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
@@ -2099,8 +2099,8 @@
     (property "Datasheet" "~" (at 121.92 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 895509a4-ac04-461a-85c8-07948649ca23))
-    (pin "2" (uuid a7ebff83-9134-4ba5-8180-635c599e861e))
+    (pin "1" (uuid 014cbfa0-417e-44f3-8b9e-0f66914f8970))
+    (pin "2" (uuid 315313d2-ea79-47c0-b726-c1a2c5d43d88))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2133,8 +2133,8 @@
     (property "Datasheet" "~" (at 45.72 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cf5396b5-e874-4900-aec1-f625747a6500))
-    (pin "2" (uuid 54d02919-8d5a-42f2-b83e-8dfa4089c410))
+    (pin "1" (uuid d0b4d905-c132-4cd4-8427-3f33e6168f19))
+    (pin "2" (uuid 13ed8932-633f-43d6-a6f6-39b124afdcf0))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2167,7 +2167,7 @@
     (property "Datasheet" "" (at 33.02 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 91f0889d-c751-4189-ad14-6e6966403f02))
+    (pin "1" (uuid 3a27cf3d-7a41-4f18-8616-2d54f2e00027))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2203,8 +2203,8 @@
     (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf" (at 127 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5be2f271-9afb-4f3a-99e3-d1e026ee1d64))
-    (pin "2" (uuid 3b84d317-e108-4792-bc37-faa671231f3f))
+    (pin "1" (uuid bafbd8cf-3e69-476f-b50c-4d939eeb89f0))
+    (pin "2" (uuid 1e09451c-c0bc-4b61-8855-6dda89e30c0a))
     (instances
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
@@ -2232,8 +2232,8 @@
     (property "Function" "A0" (at 201.93 41.91 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 29e714db-c0ad-4bc3-9826-447159d826c0))
-    (pin "2" (uuid 29f06eee-8bc4-4dc9-a24c-bb2d3f135d90))
+    (pin "1" (uuid 3f3d41fd-a816-4ff1-adb7-85efe358143d))
+    (pin "2" (uuid 99895ace-3ad0-4155-a9ca-5be9e56e4a4c))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2266,8 +2266,8 @@
     (property "Datasheet" "~" (at 104.14 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 192cedd6-038e-4420-a342-5b9e5284c916))
-    (pin "2" (uuid b81ecb63-110d-4f4c-baba-85d60fb05513))
+    (pin "1" (uuid b3a017d0-1067-4159-a43c-f6fc9c3a6303))
+    (pin "2" (uuid 67aad52c-c774-4e45-a19e-d271100162d9))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2300,7 +2300,7 @@
     (property "Datasheet" "" (at 45.72 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 654b13ee-064a-46ac-8f30-a7ff5cf60025))
+    (pin "1" (uuid 89163650-60eb-4667-99db-31ded3341991))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2333,7 +2333,7 @@
     (property "Datasheet" "" (at 21.59 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aa4b8ce2-47be-42cf-9b0d-3173581a0cec))
+    (pin "1" (uuid 0a0fddbf-0a9c-421a-99d4-2cf8d163c383))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2366,8 +2366,8 @@
     (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf" (at 93.98 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c03a4184-747b-4900-85f4-fe06d78a6d58))
-    (pin "2" (uuid de6a8171-f57f-4ebe-9def-a1d0eb976789))
+    (pin "1" (uuid ea4979de-f2ef-46aa-a1da-60961c830e73))
+    (pin "2" (uuid 41177b3e-4b86-4898-a95c-2417533c0e1a))
     (instances
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
@@ -2392,8 +2392,8 @@
     (property "Datasheet" "~" (at 21.59 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2ee07103-202b-4b41-adac-e4e841887717))
-    (pin "2" (uuid 4776ed33-6d42-454e-a32b-8538fdaaa596))
+    (pin "1" (uuid 1e7903ca-263e-4863-b4fd-27e8a738d1e3))
+    (pin "2" (uuid e937f8c2-62bb-483e-b26d-c590eafaedd9))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2429,8 +2429,8 @@
     (property "Datasheet" "~" (at 194.31 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cc5f9ce0-a8b4-4ca0-8c4f-a4e5cc85b706))
-    (pin "2" (uuid 3574ef72-eb3d-4eb2-93c8-7bbf62a90a18))
+    (pin "1" (uuid 2efd72d6-72a7-4e08-b18b-20a86e6b532a))
+    (pin "2" (uuid b21bfcdf-9d62-4c74-b0fb-e6bdfedfbe24))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2475,34 +2475,34 @@
     (property "Manufacturer_Part_Number" "HT16K33-28SOP" (at 186.69 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 59c0e6f2-3fa8-4293-af3d-2a6ce3876c04))
-    (pin "10" (uuid 40de5c3a-21cd-44f4-a23a-88780447df98))
-    (pin "11" (uuid a396444a-755f-41c3-8e24-f0f4cab8eb20))
-    (pin "12" (uuid 7eec2174-b787-46e8-994c-8cf7753bb375))
-    (pin "13" (uuid cf989184-754a-49e6-83d6-969990ee16a3))
-    (pin "14" (uuid 2f3b8887-bfaf-432d-81aa-82771877b474))
-    (pin "15" (uuid ef0e3e2c-1ee9-4e38-beec-a1cf1d0bf819))
-    (pin "16" (uuid de02dba8-1f63-4918-b0cb-086a519e9796))
-    (pin "17" (uuid 9b083ddf-2a30-45dd-84f0-e664981fe8b3))
-    (pin "18" (uuid 371678fa-d27c-4857-93b5-d8709dd4a6e2))
-    (pin "19" (uuid 5ad3324d-0ba2-4df3-97cc-8167c9ed80ac))
-    (pin "2" (uuid c089f715-e49f-4d03-84d7-e39a317937f1))
-    (pin "20" (uuid f894fd84-6de3-4e3f-a27b-79a549098708))
-    (pin "21" (uuid 67ca46a4-c869-48c3-9903-400720f501ce))
-    (pin "22" (uuid 77753c28-b826-49fb-b3c2-dfbfe078668b))
-    (pin "23" (uuid 3d8c5254-d960-4c74-aad3-4c2853177a21))
-    (pin "24" (uuid 4a93a681-f49e-46c1-843f-082d14e45e05))
-    (pin "25" (uuid a6e7bfae-6756-4005-a33b-60f635cc2475))
-    (pin "26" (uuid 9eb8e4c5-d6d4-4c86-b5c1-214f6da3e261))
-    (pin "27" (uuid b68b365a-c56f-4d34-ac38-f3e3beb21ba5))
-    (pin "28" (uuid 1d48d09e-a06b-483d-9a48-6d75b0c29d65))
-    (pin "3" (uuid 3d40680f-c511-4d98-b1e6-5944073fbe2a))
-    (pin "4" (uuid 1cd1482b-2557-4231-ac2b-9abc9ee58208))
-    (pin "5" (uuid 1e4e3073-f4a4-4cf9-bd20-eccfcb322d51))
-    (pin "6" (uuid 55f43098-00f4-46a1-b792-f1c81609a824))
-    (pin "7" (uuid fcb3859f-8c54-47b8-a8ee-a3e93c2e248a))
-    (pin "8" (uuid 56e0d78d-c50c-42ce-a158-5459e3fc2c6c))
-    (pin "9" (uuid 84e88d8b-6ff2-4006-bfbf-2c8a6a3a8684))
+    (pin "1" (uuid c6177845-42d6-4a84-98d1-125c2e73a25a))
+    (pin "10" (uuid 7d53b579-eb55-482d-aa17-e9136ce987fa))
+    (pin "11" (uuid 06522a3d-3597-4473-af8c-84e274c16b2a))
+    (pin "12" (uuid cff52165-5488-4ce8-809f-c5c05de18069))
+    (pin "13" (uuid ae5ba874-97e8-41dd-9ba1-ba3734910b03))
+    (pin "14" (uuid 32f92a14-1aea-4ac0-b63a-2fb0e02c54e9))
+    (pin "15" (uuid 42ff559e-d406-4eec-8c5b-f3b636739509))
+    (pin "16" (uuid 45e44252-8688-47ec-b760-414019f1a35a))
+    (pin "17" (uuid e92be07b-5ac9-41f5-8da8-99944e84c128))
+    (pin "18" (uuid 4be4fc71-9199-49c8-987a-ef679be24ff3))
+    (pin "19" (uuid 306c1a74-9f8c-4ec1-93ef-32305a7d256d))
+    (pin "2" (uuid 9aab450f-ee69-4710-a543-06a011e4031e))
+    (pin "20" (uuid 53060db1-76ae-4ef1-ac79-bd131a671601))
+    (pin "21" (uuid 70c11ef6-4c91-4233-9c7f-0f1b3eff71b4))
+    (pin "22" (uuid 05aa582a-0522-4df6-bff9-e1a2803372c4))
+    (pin "23" (uuid 51a91fbf-2214-40bd-9ffd-09664868107b))
+    (pin "24" (uuid cb66675f-a1c1-4642-a2d9-2a4830bf96ad))
+    (pin "25" (uuid abada29e-3262-410a-a6c2-1614e87f47e1))
+    (pin "26" (uuid 1200393f-4107-43b4-af97-532c3c579e39))
+    (pin "27" (uuid 4bcae095-f2a9-410a-a5be-e4dc8fc1ae9b))
+    (pin "28" (uuid 26c46092-3433-4bdd-9769-91c907c856a9))
+    (pin "3" (uuid 5d6e3244-8047-4c74-a3ed-b7293e3e4503))
+    (pin "4" (uuid c64d3fa6-c8e8-4d24-9e55-30a0812d9892))
+    (pin "5" (uuid 6a2ae20e-316c-45c3-90c4-5757cd85b893))
+    (pin "6" (uuid 3bf48986-eb9a-459a-b333-3607f7c1735b))
+    (pin "7" (uuid cf8261e9-b18e-4b59-b7ab-dce72f99605d))
+    (pin "8" (uuid a20cfd07-7ed0-4aa4-a580-71411626b051))
+    (pin "9" (uuid d3ace82c-d0c3-48d2-8711-1eddf3b7a8b3))
     (instances
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba"
@@ -2530,8 +2530,8 @@
     (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf" (at 111.76 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4a19bfc6-dd80-4858-90d4-8d3a5159acdb))
-    (pin "2" (uuid 48108f83-e6a7-48d7-96fb-17871486db4c))
+    (pin "1" (uuid 06eb7cbd-c065-423b-8477-f0fdfc1e3d80))
+    (pin "2" (uuid 9f3b930f-741d-45eb-8fe0-6e2d95718d78))
     (instances
       (project "ltp_kikad"
         (path "/eed35b77-cbf9-4596-9b17-2558f81058ba/7d22e16e-a0ba-4766-b1de-c8cbb28f14f7"
@@ -2556,8 +2556,8 @@
     (property "Datasheet" "~" (at 138.43 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 636b2d03-0573-4e89-bc83-ee06a6724e62))
-    (pin "2" (uuid a4a694b2-b56d-450b-a5e6-8d2fc6f58939))
+    (pin "1" (uuid e24b6825-6b10-4fc9-9d76-79728a56f523))
+    (pin "2" (uuid 9d7972e2-480a-4656-b72c-455f69e0750f))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2590,8 +2590,8 @@
     (property "Datasheet" "~" (at 123.19 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 710c64e3-3d45-47a0-ad24-0e2fcbf810b6))
-    (pin "2" (uuid 65046fe9-6df9-411f-894b-7fc3c37af5c0))
+    (pin "1" (uuid d168aca9-553c-4219-9455-d8d0eb9cc33b))
+    (pin "2" (uuid 3b12e71b-586d-4d83-a58d-2224d756824f))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2624,8 +2624,8 @@
     (property "Datasheet" "~" (at 127 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fbfcf2d8-7bde-4df1-a665-5b9b665dbf76))
-    (pin "2" (uuid 1320a0f2-9293-4da9-95fb-05482933f099))
+    (pin "1" (uuid 08202ac1-9275-4fa9-bb44-002ebce679ff))
+    (pin "2" (uuid bc80c664-c360-45ba-8375-3c4a88a0ca58))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2661,8 +2661,8 @@
     (property "Function" "A2" (at 201.93 26.67 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1efad179-61fe-4a50-9ead-f8b17994c670))
-    (pin "2" (uuid 2cf650a9-a45a-428e-a240-c84921ef9d2c))
+    (pin "1" (uuid 50909fbe-4878-4071-a607-3fa43e7c9fde))
+    (pin "2" (uuid 981e5d5b-569e-459a-8af0-86d0b7d8b22a))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2695,7 +2695,7 @@
     (property "Datasheet" "" (at 140.97 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 11d3398a-7891-43a2-a160-56c47360f4cc))
+    (pin "1" (uuid e6b60406-59cd-49d3-a5ef-64a899dda468))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2728,7 +2728,7 @@
     (property "Datasheet" "" (at 21.59 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f880a920-3fb7-46d0-9ac7-ab4787b85bb7))
+    (pin "1" (uuid 1d707913-ca87-4a2a-b4a8-32114edcd803))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2767,8 +2767,8 @@
     (property "Function" "A2" (at 105.41 30.48 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 975adb31-d160-47c5-9d3c-0189e7625cb3))
-    (pin "2" (uuid fa5e3ce1-951d-4af3-8376-cac2b87eeaff))
+    (pin "1" (uuid 3914780e-2402-4ea0-9b5a-3cd279fd5394))
+    (pin "2" (uuid 4466780f-36fa-42ca-8467-a89e380ba10f))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -2801,7 +2801,7 @@
     (property "Datasheet" "" (at 140.97 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e5cb38a1-2cf0-4a1a-8caf-eeaddc25da14))
+    (pin "1" (uuid cbf008c6-8cc7-4a0e-817b-f82ac3de9828))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"

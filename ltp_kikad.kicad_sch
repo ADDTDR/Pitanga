@@ -461,7 +461,7 @@
     (property "Datasheet" "" (at 210.82 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d954449e-2c91-486c-a010-17326fb9916a))
+    (pin "1" (uuid 7e66ccbe-4a4f-4d6c-a175-576e4b38f77b))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -491,7 +491,7 @@
     (property "Datasheet" "" (at 274.32 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2db1aa03-a173-4f3e-91fa-e626372b20ea))
+    (pin "1" (uuid a7b61971-122d-4907-a6bb-de582105cc47))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -521,7 +521,7 @@
     (property "Datasheet" "" (at 200.66 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 718bfe57-731d-439f-b4f1-e7a27224d1d3))
+    (pin "1" (uuid ffc16cb4-d5d5-46a4-a484-07a5a9957236))
     (instances
       (project "rpi-pico-debugger-shoe"
         (path "/aad74d97-f116-4a83-b498-c8cb2f4b4e35"
@@ -551,7 +551,7 @@
     (property "Datasheet" "" (at 213.36 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b5a3c340-4125-4847-965f-91fc8ca06510))
+    (pin "1" (uuid 8706d15a-6d95-41ee-b662-fdb1e98eac83))
     (instances
       (project "rpi-pico-debugger-shoe"
         (path "/aad74d97-f116-4a83-b498-c8cb2f4b4e35"
@@ -581,7 +581,7 @@
     (property "Datasheet" "" (at 213.36 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8edc3f80-d393-49ba-abe3-1c27823d2f71))
+    (pin "1" (uuid ca75b2b4-3077-4cbf-9c1b-e1e157889e4c))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -611,7 +611,7 @@
     (property "Datasheet" "" (at 274.32 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4c8c551c-5138-44d2-89f8-a0293624dfd2))
+    (pin "1" (uuid a2bdcd91-b5f7-4929-a30b-1f1160a989b2))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -641,7 +641,7 @@
     (property "Datasheet" "" (at 276.86 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5c31d0d7-afdb-4f7b-8b4a-2d40d00a0cb9))
+    (pin "1" (uuid 284dc7a4-941c-4281-a13a-986d10b39054))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -671,7 +671,7 @@
     (property "Datasheet" "" (at 281.94 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3d41715b-5f47-4462-b7b3-4b12df9caa41))
+    (pin "1" (uuid 9ca8d100-da9b-49ee-881f-ce26d4a1be2b))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -701,46 +701,46 @@
     (property "Datasheet" "" (at 222.25 41.91 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid e943b741-fa64-480f-8511-95b8ac2659e2))
-    (pin "10" (uuid 82ddfcee-4f5b-45ac-9e27-4d7cdae1ce5f))
-    (pin "11" (uuid a2ea170e-22ff-4053-9102-fa4f0551f216))
-    (pin "12" (uuid 3afe2359-4c7f-41a6-b76c-8a581f2cce06))
-    (pin "13" (uuid b115eb15-b9d4-4251-8045-d0f3f4a0f908))
-    (pin "14" (uuid b115441c-bc0c-41c9-a321-ce224afb4358))
-    (pin "15" (uuid 5eb7f6d7-c964-4fcf-8e1b-98327d1ef617))
-    (pin "16" (uuid 52a10f88-594f-4a23-9c3d-6f7e101f42e9))
-    (pin "17" (uuid 5b4dcd49-254d-4165-a612-04a1806aa75f))
-    (pin "18" (uuid 4d124482-7a56-415a-83ec-a256283ecd8d))
-    (pin "19" (uuid 73622be7-22f3-44cb-ae7d-71a52ba1fb48))
-    (pin "2" (uuid 4ac1f257-32c0-46d0-9b8e-59e9811f5bd4))
-    (pin "20" (uuid 2f1314d3-6618-421f-99ed-7ab4e81b1502))
-    (pin "21" (uuid b0935602-35f2-4d04-97c0-a05df85db59c))
-    (pin "22" (uuid 51d7abf1-dead-4d71-b4e1-85ea7dc00b8b))
-    (pin "23" (uuid 10c01b69-5754-4ba8-8956-2e8c6845a002))
-    (pin "24" (uuid 2b6679e8-663e-438f-b07b-65a73c9ddabe))
-    (pin "25" (uuid f39a91f4-040f-4d7a-a5dc-08266d056d04))
-    (pin "26" (uuid b6add744-530a-4526-b960-6a0c5c37651b))
-    (pin "27" (uuid 331247c0-4be2-4d22-a153-e4d489812380))
-    (pin "28" (uuid 745a937e-ddfc-4f79-b885-6ea7798cacf8))
-    (pin "29" (uuid 8da5b7e9-8aa8-4e25-900b-75f2f89c5f53))
-    (pin "3" (uuid 298a0b9a-fc35-4bdc-95f4-1ab4bfd4ef8e))
-    (pin "30" (uuid d7392033-957e-4745-bd41-17c3752329d2))
-    (pin "31" (uuid 9faeee5f-7950-4b59-b0ae-9772e090e05e))
-    (pin "32" (uuid 90adc732-0017-4ec8-8322-863c6cb2750c))
-    (pin "33" (uuid 472d83ac-adc2-4e6b-886a-5f0e92c02671))
-    (pin "34" (uuid d7a30fa9-83ca-42cf-b508-ff6e24932ea8))
-    (pin "35" (uuid 20d2f89d-05ea-4800-a466-6b8e8db60604))
-    (pin "36" (uuid 3b0d40f5-af8e-4b74-a42c-8189c8d18ad9))
-    (pin "37" (uuid 5d1510c0-38ae-4c2a-869f-626f9d756f88))
-    (pin "38" (uuid 520fe8fc-4fd9-4b30-af58-d597419d14fc))
-    (pin "39" (uuid cc15e6c4-2beb-442b-82a5-6f709117a355))
-    (pin "4" (uuid 95a3f5d7-5236-45e8-b8db-fc9af6b06673))
-    (pin "40" (uuid 6ae757b3-48da-4e4e-ba65-585817e29333))
-    (pin "5" (uuid 58fea89d-fc18-4eae-8460-090dff41457a))
-    (pin "6" (uuid 57b4caee-7178-4c34-a931-74f7f269443f))
-    (pin "7" (uuid 5685d18d-661f-4ccd-a854-b1968e0eb2f0))
-    (pin "8" (uuid c15179f6-08d7-45cc-b884-67f4e5e42dd3))
-    (pin "9" (uuid 47e37331-3317-4d47-86f3-976ae844fa5b))
+    (pin "1" (uuid 21ba34d8-7f8b-40c3-8c81-24b1ea4d7e5d))
+    (pin "10" (uuid 8b2d718d-63e4-4105-b2a0-a5d69e025e09))
+    (pin "11" (uuid 828d71e8-fa27-4102-a606-93bde7bfddbc))
+    (pin "12" (uuid 12608c6d-bb2a-4adb-9929-535cede34160))
+    (pin "13" (uuid 99774b88-a024-4ad4-850e-12b7e6049e84))
+    (pin "14" (uuid 3efcdb32-6e6c-4715-9939-539d604b6642))
+    (pin "15" (uuid dc571cc8-256a-467c-8cbc-566f600d2361))
+    (pin "16" (uuid dd25463a-cf28-44d9-97bb-e0534f45dadc))
+    (pin "17" (uuid a3e7ed05-681b-4d9a-96a0-9b78bb9384a8))
+    (pin "18" (uuid 49682a11-44a9-4105-8ba5-1be19d55688f))
+    (pin "19" (uuid 0facc3a3-4e92-46ce-93b7-da99ec237881))
+    (pin "2" (uuid acb5edfe-1133-4e64-aaee-fa4818e2f32e))
+    (pin "20" (uuid c5be4368-d60c-4549-9842-c97d313c291d))
+    (pin "21" (uuid de0677aa-574a-458a-83a2-9da28d47bf06))
+    (pin "22" (uuid 4275a6bb-8a90-4a4e-84fd-26080a1520b4))
+    (pin "23" (uuid dd8c8b0a-b43a-4917-b59d-928cdd5c4291))
+    (pin "24" (uuid 60d12c6a-fce2-4b16-81ae-f6d76710ddef))
+    (pin "25" (uuid 57d1c2c4-a7bc-44dc-b397-94b5b80e1af9))
+    (pin "26" (uuid 11cd6da7-eac8-464d-b5f1-41d1deeb7ecf))
+    (pin "27" (uuid 9e680b13-56cb-4054-9218-ce84f94bb8d7))
+    (pin "28" (uuid 9da3ad53-a516-4663-a022-a4adb3cfa0fd))
+    (pin "29" (uuid babd6dd9-5a5d-472f-9d05-7ce9978e2466))
+    (pin "3" (uuid 62c42484-b03f-49b5-9a68-071a7cea492c))
+    (pin "30" (uuid 0a0dba2d-fbc7-4613-8cf4-05bd9c5ff8b5))
+    (pin "31" (uuid c85596ec-7fb7-4f15-9bac-d42c8bd86d52))
+    (pin "32" (uuid d8b74407-5d90-4859-b84c-e1dc22edfe76))
+    (pin "33" (uuid e17bb9ac-0a30-4f2e-b539-9fa6a98152e5))
+    (pin "34" (uuid 9e926c94-a2da-41ef-b41d-710c0874d084))
+    (pin "35" (uuid 96c8e849-c488-4e0c-a34c-ec5c2339d4bf))
+    (pin "36" (uuid 49a4f9bf-86c9-431f-b9b7-3b3260152b46))
+    (pin "37" (uuid 5a0575d9-a00e-4368-8fc3-adc5d2158913))
+    (pin "38" (uuid 93212ef2-6975-4ecc-9898-567bdb56ba1b))
+    (pin "39" (uuid 9da59bf0-42ac-4835-8f7c-6b7e6c351462))
+    (pin "4" (uuid 6a84f423-ad65-409a-ad6e-d8f7455e6c68))
+    (pin "40" (uuid 069a1f1a-3b61-4ea3-a5e2-609c622f0948))
+    (pin "5" (uuid 196d61f0-082b-4cbc-adda-dda28ff30d78))
+    (pin "6" (uuid 4f55f4e9-d60f-4c5f-9833-e89c524fd835))
+    (pin "7" (uuid b4559621-5bc7-4d9d-8bbd-1722d1f4992c))
+    (pin "8" (uuid 6ee9571b-3054-4d16-9fdb-4aae9684f06f))
+    (pin "9" (uuid e510b013-4b61-4402-b61b-e5337b53768a))
     (instances
       (project "RPi_GPIO"
         (path "/edd81f83-fe53-4f44-97a0-d320a390b257/00000000-0000-0000-0000-00005515d395"
@@ -773,7 +773,7 @@
     (property "Datasheet" "" (at 207.01 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e7168956-4218-4b83-8835-c7f493f06a4c))
+    (pin "1" (uuid fa27b40d-f127-4c3c-b09c-9dd9f1e167a3))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -803,7 +803,7 @@
     (property "Datasheet" "" (at 274.32 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 537c0f3a-7f65-480d-88e4-246637bec728))
+    (pin "1" (uuid 8b422a11-5b43-4d9a-8c15-9264b1a7fd22))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
@@ -833,7 +833,7 @@
     (property "Datasheet" "" (at 269.24 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 68e19d24-fb0a-46db-8cf8-c54d1f69a552))
+    (pin "1" (uuid a2036076-6c61-4c1b-b3ec-833e7103f83a))
     (instances
       (project "LTP305_ESP32_CLOCK"
         (path "/c007e288-8439-49d9-bbdf-49724c34958c"
