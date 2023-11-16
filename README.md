@@ -10,4 +10,3 @@ als340A1
 3ls363
 al104 
 
-https://www.embeddedadventures.com/LED_matrix_display_LDP-080507R.html
