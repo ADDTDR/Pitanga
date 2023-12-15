@@ -13,7 +13,7 @@ Displays
 
 # Images 
 
-Prototype A            |  Pitanga V1 |  Pitanga V2
+Prototype A            |  Pitanga V1 |  Pitanga V2.1a
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Alt text](photo/jpeg/photo_5352913656670706168_y.jpeg)  |  ![Alt text](<photo/jpeg/photo_5467480294383800560_y.jpg>)  | ![Alt text](<photo/jpeg/IMG_4559 2.jpeg>)
 
