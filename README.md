@@ -12,7 +12,12 @@ Displays
 
 
 # Images 
-# Prototype A 
+
+Prototype A            |  Pitanga V1 |  Pitanga V2
+:-------------------------:|:-------------------------:|:-------------------------:
+![Alt text](photo/jpeg/photo_5352913656670706168_y.jpeg)  |  ![Alt text](<photo/jpeg/photo_5467480294383800560_y.jpg>)  | ![Alt text](<photo/jpeg/IMG_4559 2.jpeg>)
+
+<!-- # Prototype A 
 ```LTP-305G```
 ![Alt text](photo/jpeg/photo_5352913656670706168_y.jpeg)
 ![Alt text](photo/jpeg/photo_5352913656670706159_y.jpeg) 
@@ -29,4 +34,4 @@ ALS340A1
 ![Alt text](<photo/jpeg/IMG_4426 2.jpeg>)
 # Version 2.1a
 ```LTP 305R```
-![Alt text](<photo/jpeg/IMG_4559 2.jpeg>)
+![Alt text](<photo/jpeg/IMG_4559 2.jpeg>) -->
