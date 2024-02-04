@@ -60,7 +60,7 @@ Welcome to the Pitanga project, my very first PCB design endeavor using KiCad 7.
         - 3LS340
         - 3LS363
         - AL104
-
+        <!-- ![Alt text w](<photo/jpeg/IMG_4414 2.jpeg> ) -->
 ## Learning Journey
 
 The Pitanga project encapsulates my journey in PCB design in KiCad 7.0. 
