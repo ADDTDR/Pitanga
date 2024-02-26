@@ -29,6 +29,7 @@ ALS340A1
 
 
 ## Overview
+![alt text](PitangaBlender/render/render.gif)
 
 Welcome to the Pitanga project, my very first PCB design endeavor using KiCad 7.0. This project served as a significant learning experience, allowing me to delve into the world of PCB design, Raspberry Pi extension hats, and various hardware components.
 
